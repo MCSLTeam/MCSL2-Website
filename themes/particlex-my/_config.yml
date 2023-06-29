@@ -1,0 +1,188 @@
+# ParticleX Configuration
+# https://github.com/argvchs/hexo-theme-particlex
+
+# Avatar image
+avatar: https://www.helloimg.com/images/2023/04/22/oel3lD.png
+
+# Home page info block
+headBlockEnable: true
+
+# Home page background image
+background: https://www.helloimg.com/images/2023/04/22/oel13o.jpg
+
+# ParticleX theme icon is adopts the Font Awesome 6
+# https://fontawesome.com
+
+# Main menu navigation
+
+menu:
+    首页:
+        name: house
+        theme: solid
+        link: /
+    MCSL2 简介:
+        name: book
+        theme: solid
+        link: /Introduction
+    更新日志:
+        name: box-archive
+        theme: solid
+        link: /archives
+    MCSL2 使用文档:
+        name: book
+        theme: solid
+        link: /MCSL2Guide
+    MCSLAPI 使用文档:
+        name: book
+        theme: solid
+        link: /MCSLAPIGuide
+    下载 MCSL2:
+        name: download
+        theme: solid
+        link: /download
+    GitHub仓库:
+        name: github
+        theme: brands
+        link: https://www.github.com/LxHTT/MCSL2
+# 文章目录
+toc:
+    enable: true
+
+# 图片懒加载
+lazyload:
+    enable: false
+
+# Side info card
+card:
+    enable: true
+    description: |
+        一个简洁全能的Minecraft开服器
+        
+        Made by **LxHTT**
+    iconLinks:
+        落雪无痕的GitHub:
+            name: github
+            theme: brands
+            link: https://www.github.com/LxHTT
+        落雪无痕的Bilibili:
+            name: bilibili
+            theme: brands
+            link: https://space.bilibili.com/488011295
+        MCSL2官方QQ群:
+            name: qq
+            theme: brands
+            link: https://jq.qq.com/?_wv=1027&k=x2ISlviQ
+    friendLinks:
+        Luoxis 云存储: https://www.df100.ltd
+        ZCloud: https://ztsin.cn/
+        FiveCDN公益加速 - MCSLAPI CDN提供者: https://mcserverx.com
+        WB-Block - LxHTT也在的MC服务器: https://wb-block.top
+        FENG IDC: https://fengidc.cn
+
+# Footer info
+footer:
+    since: 2022
+    # Customize the server domain name ICP
+    ICP:
+        enable: false
+        code:
+        link:
+
+# Polyfill
+# https://polyfill.io
+polyfill:
+    enable: true
+    features:
+        - default
+
+# Highlight.js
+# https://highlightjs.org
+highlight:
+    enable: true
+    style: github
+
+# Rendering math with KaTeX
+math:
+    enable: false
+
+# Image Preview
+preview:
+    enable: true
+
+# Article encryption
+crypto:
+    enable: false
+
+# Search
+search:
+    enable: false
+
+# Giscus
+# https://github.com/giscus/giscus
+giscus:
+    enable: false
+    src: https://giscus.app/client.js
+    repo:
+    repoID:
+    category:
+    categoryID:
+    mapping: pathname
+    strict: 0
+    reactionsEnabled: 1
+    emitMetadata: 0
+    inputPosition: bottom
+    theme: preferred_color_scheme
+    lang: zh-CN
+
+# Gitalk
+# https://github.com/gitalk/gitalk
+gitalk:
+    enable: false
+    clientID: # Default ClientID
+    clientSecret: # Default ClientSecret
+    repo: # The name of repository of store comments
+    owner: # GitHub repo owner
+    admin: # GitHub repo owner and collaborators, only these guys can initialize github issues
+    language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available
+    proxy: # CORS proxy
+    sites: # Sites
+        {}
+        # www.example.com:
+        #    clientID:
+        #    clientSecret:
+
+# Waline
+# https://github.com/walinejs/waline
+waline:
+    enable: false
+    serverURL: # Waline server address url, you should set this to your own link
+    locale: # Locale: https://waline.js.org/guide/client/i18n.html#locale-option
+        {}
+    commentCount: true # If false, comment count will only be displayed in post page, not in home page
+    pageview: false # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`
+    emoji: # Custom emoji
+        - https://unpkg.com/@waline/emojis@1.2.0/weibo
+        - https://unpkg.com/@waline/emojis@1.2.0/alus
+        - https://unpkg.com/@waline/emojis@1.2.0/bilibili
+        - https://unpkg.com/@waline/emojis@1.2.0/qq
+        - https://unpkg.com/@waline/emojis@1.2.0/tieba
+        - https://unpkg.com/@waline/emojis@1.2.0/tw-emoji
+    meta: # Comment information, valid meta are nick, mail and link
+        - nick
+        - mail
+        - link
+    requiredMeta: # Set required meta field, e.g.: [nick] | [nick, mail]
+        - nick
+    lang: zh-CN # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
+    wordLimit: 0 # Word limit, no limit when setting to 0
+    login: enable # Whether enable login, can choose from 'enable', 'disable' and 'force'
+    pageSize: 10 # Comment per page
+
+# Twikoo
+# https://github.com/imaegoo/twikoo
+twikoo:
+    enable: false
+    envID:
+    region:
+    path: location.pathname
+    lang: zh-CN

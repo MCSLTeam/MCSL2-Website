@@ -1,0 +1,66 @@
+<%
+    let type = "post";
+    if (is_home())
+        type = "index";
+    else if (is_post())
+        type = "post";
+    else if (is_category() || page.type === "categories")
+        type = "categories";
+    else if (is_tag() || page.type === "tags")
+        type = "tags";
+    else if (is_archive())
+        type = "archives";
+    let title = "";
+    if (page.title)
+        title = page.title + " | ";
+    else if (is_category())
+        title = "Categories: " + page.category + " | ";
+    else if (is_tag())
+        title = "Tags: " + page.tag + " | ";
+    else if (is_archive())
+        title = "Archives | ";
+    title += config.title;
+%>
+<!DOCTYPE html>
+<html lang="<%- config.language %>">
+    <head>
+        <meta charset="UTF-8" />
+        <title><%= title %></title>
+        <meta name="author" content="<%- config.author %>" />
+        <meta name="description" content="<%- config.description %>" />
+        <meta name="keywords" content="<%- config.keywords %>" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+        <%- partial("import", { type }) %>
+    </head>
+    <body>
+        <div id="layout">
+            <transition name="fade">
+            <div id="loading" v-show="loading">
+                <div id="loading-circle">
+                    <h2>LOADING</h2>
+                    <p>加载过慢请使用相关网络工具（）</p>
+                    <img src="<%- url_for("https://www.helloimg.com/images/2023/01/23/oRbKc6.md.gif") %>" />
+                </div>
+            </div>
+            </transition>
+            <transition name="into">
+            <div id="main" v-show="!loading">
+                <%- partial("menu") %>
+                <%- partial(type) %>
+                <%- partial("footer") %>
+            </div>
+            </transition>
+            <% if (theme.preview.enable) { %>
+            <transition name="fade">
+            <div id="preview" ref="preview" v-show="previewShow">
+                <img id="preview-content" ref="previewContent" />
+            </div>
+            </transition>
+            <% } %>
+        </div>
+        <script src="<%- url_for("/js/main.js") %>"></script>
+        <% if (type === "post" && page.comments) { %>
+        <%- partial("comment") %>
+        <% } %>
+    </body>
+</html>
