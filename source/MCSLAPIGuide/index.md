@@ -12,7 +12,7 @@ date: 2023-04-22 18:10:16
 本API支持 ```GET``` 方式调用，例如：
 
 ```http
-GET https://mecdn.mcserverx.com/gh/LxHTT/MCSLDownloaderAPI/master/SharePoint/SpigotDownloadInfo.json
+GET https://mecdn.mcserverx.com/gh/MCSLTeam/MCSLAPI/master/SharePoint/SpigotDownloadInfo.json
 ```
 ## 各个值的解释
 在请求API后，返回的会是像以下格式的答辩。
@@ -54,10 +54,10 @@ GET https://mecdn.mcserverx.com/gh/LxHTT/MCSLDownloaderAPI/master/SharePoint/Spi
 ```http
 //示例
 
-https://mecdn.mcserverx.com/gh/LxHTT/MCSLDownloaderAPI/master/SharePoint/SpigotDownloadInfo.json
+https://mecdn.mcserverx.com/gh/MCSLTeam/MCSLAPI/master/SharePoint/SpigotDownloadInfo.json
 ```
 
- ```https://mecdn.mcserverx.com/gh/LxHTT/MCSLDownloaderAPI/master/``` 是<font color="red">必需字段</font> ， 再加上 ```下载源/```， 以及 ```请求类型```。
+ ```https://mecdn.mcserverx.com/gh/MCSLTeam/MCSLAPI/master/``` 是<font color="red">必需字段</font> ， 再加上 ```下载源/```， 以及 ```请求类型```。
 
 |           下载源            | /   |             请求类型              |
 |------------------------|-----|-----------------------------|
@@ -76,7 +76,7 @@ import json
 import requests # 导入库
 
 # 此处即为SharePoint节点的Spigot下载信息
-Api_Url = "https://mecdn.mcserverx.com/gh/LxHTT/MCSLDownloaderAPI/master/SharePoint/SpigotDownloadInfo.json"
+Api_Url = "https://mecdn.mcserverx.com/gh/MCSLTeam/MCSLAPI/master/SharePoint/SpigotDownloadInfo.json"
 
 # 将读取并解析完的json数据保存至Api_Data中
 Api_Data = json.loads(requests.get(Api_Url).text)['MCSLDownloadList']
@@ -95,7 +95,7 @@ FileName = Api_Data[0]["filename"]
 import json
 import requests # 导入库
 
-Api_Url = "https://mecdn.mcserverx.com/gh/LxHTT/MCSLDownloaderAPI/master/SharePoint/SpigotDownloadInfo.json"
+Api_Url = "https://mecdn.mcserverx.com/gh/MCSLTeam/MCSLAPI/master/SharePoint/SpigotDownloadInfo.json"
 
 # 将读取并解析完的json数据保存至Api_Data中
 Api_Data = json.loads(requests.get(Api_Url).text)['MCSLDownloadList']
