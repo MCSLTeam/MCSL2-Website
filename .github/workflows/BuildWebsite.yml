@@ -38,7 +38,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          body_path: update.
+          body: "update."
           prerelease: false
           draft: false
           tag_name: ${{ env.TAG_TIME }}
