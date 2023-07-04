@@ -672,7 +672,7 @@ body::-webkit-scrollbar-track {
 }
 
 .language {
-    background: linear-gradient(90deg, #ed6ea0 0, #ec8c69);
+    background: linear-gradient(90deg, #52be9c 0, #4296d2);
     border-radius: 0 0 10px 10px;
     box-shadow: 1px 1px .75rem rgba(237, 110, 161, .302);
     color: #fff;
@@ -1218,4 +1218,84 @@ ul li {
 
 .toc-level-5 {
     padding-left: 3rem
+}
+
+.custom-block .custom-block-title {
+    font-weight: 600;
+    margin-bottom: -.4rem
+}
+
+.custom-block.danger,
+.custom-block.tip,
+.custom-block.warning {
+    padding: .1rem 1.5rem;
+    border-left-width: .5rem;
+    border-left-style: solid;
+    border-radius: 5px;
+    margin: 1rem 0
+}
+
+.custom-block.tip {
+    background-color: #e7eefc;
+    border-color: #66afef
+}
+
+.custom-block.tip .custom-block-title {
+    color: #4089c9
+}
+
+.custom-block.tip a {
+    color: #2c3e50
+}
+
+.custom-block.warning {
+    background-color: rgba(255, 229, 100, .3);
+    border-color: #e7c000;
+    color: #6b5900
+}
+
+.custom-block.warning .custom-block-title {
+    color: #b29400
+}
+
+.custom-block.warning a {
+    color: #2c3e50
+}
+
+.custom-block.danger {
+    background-color: #ffe6e6;
+    border-color: #c00;
+    color: #4d0000
+}
+
+.custom-block.danger .custom-block-title {
+    color: #900
+}
+
+.custom-block.danger a {
+    color: #2c3e50
+}
+
+.custom-block.details {
+    display: block;
+    position: relative;
+    border-radius: 2px;
+    margin: 1.6em 0;
+    padding: 1.6em;
+    background-color: #eee
+}
+
+.custom-block.details h4 {
+    margin-top: 0
+}
+
+.custom-block.details figure:last-child,
+.custom-block.details p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.custom-block.details summary {
+    outline: none;
+    cursor: pointer
 }
