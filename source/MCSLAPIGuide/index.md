@@ -2,7 +2,6 @@
 title: MCSLAPI文档
 date: 2023-04-22 18:10:16
 ---
-
 ## 前言
 这是我自己维护的一个API。API有5个下载点，分别为SharePoint、Gitee、luoxis云、GHProxy、GitHub。
 <br>这个API使用的不一定是我本人的下载源，仅是提供了对Java、服务器核心等的下载链接。
@@ -44,9 +43,10 @@ GET https://mecdn.mcserverx.com/gh/MCSLTeam/MCSLAPI/master/SharePoint/SpigotDown
 |      format      |  ```MCSLDownloadList[索引值].format```  | 文件类型（拓展名、后缀名） |
 |     filename     | ```MCSLDownloadList[索引值].filename``` |    文件名，可选     |
 
-<font color="red">
-请将索引值修改正确，或使用循环语句读取再使用！
-</font>
+<div class="custom-block tip">
+  <p class="custom-block-title">提示</p>
+  <p>请将索引值修改正确，或使用循环语句读取再使用！</p>
+</div>
 
 ## API请求的链接
 也是按照一定的套路。
