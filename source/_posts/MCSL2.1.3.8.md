@@ -3,7 +3,11 @@ title: MCSL2 2.1.3.8更新日志
 date: 2023-06-17 01:27:12
 tags:
 ---
-<p style="font-weight: bold; color: red; font-size: 26px;">紧急修复</p>
+
+<div class="custom-block danger">
+  <p class="custom-block-title">警告</p>
+  <p>紧急修复</p>
+</div>
 
 ### ~~新功能~~
 ### 修复  
