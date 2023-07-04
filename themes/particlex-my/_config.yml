@@ -20,7 +20,7 @@ menu:
         name: house
         theme: solid
         link: /
-    MCSL2 简介:
+    简介:
         name: book
         theme: solid
         link: /Introduction
@@ -28,22 +28,22 @@ menu:
         name: box-archive
         theme: solid
         link: /archives
-    MCSL2 使用文档:
-        name: book
-        theme: solid
-        link: /MCSL2Guide
-    MCSLAPI 使用文档:
-        name: book
-        theme: solid
-        link: /MCSLAPIGuide
-    下载 MCSL2:
+    下载:
         name: download
         theme: solid
         link: /download
     GitHub仓库:
         name: github
         theme: brands
-        link: https://www.github.com/LxHTT/MCSL2
+        link: https://www.github.com/MCSLTeam/MCSL2
+    MCSL2 文档:
+        name: book
+        theme: solid
+        link: /MCSL2Guide
+    MCSLAPI 文档:
+        name: book
+        theme: solid
+        link: /MCSLAPIGuide
 # 文章目录
 toc:
     enable: true
@@ -64,6 +64,10 @@ card:
             name: github
             theme: brands
             link: https://www.github.com/LxHTT
+        MCSL2的Github主页:
+            name: github
+            theme: brands
+            link: https://www.github.com/MCSLTeam
         落雪无痕的Bilibili:
             name: bilibili
             theme: brands
@@ -99,7 +103,7 @@ polyfill:
 # https://highlightjs.org
 highlight:
     enable: true
-    style: github
+    style: vs
 
 # Rendering math with KaTeX
 math:
