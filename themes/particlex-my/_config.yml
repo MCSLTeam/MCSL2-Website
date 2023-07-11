@@ -115,7 +115,7 @@ preview:
 
 # Article encryption
 crypto:
-    enable: false
+    enable: true
 
 # Search
 search:

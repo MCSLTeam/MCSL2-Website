@@ -94,7 +94,7 @@ Minecraft的服务器核心为以`jar`为扩展名的Java可执行文件。你�
   <a href="https://www.github.com/MCSLTeam/MCSL2/discussions">GitHub Discussions</a>
   中提出。
   </p>
-  <p align="right">——LxHTT</p>
+  <p align="right"><i>——LxHTT</i></p>
 </div>
 
 ### 导入服务器  
@@ -178,7 +178,7 @@ MCSL2提供了多种导入服务器的方式/类型。
 ### 补充
 MCSL2针对以下功能，已进行了特殊优化：  
  - Java搜索。  
-相对MCSL1来说，MCSL2在力求准确度与完整度的基础上，由开发者<a href="https://www.github.com/AresConnor">Ares Connor</a>与<a href="https://www.github.com/ubby">灰太狼</a>共同开发了新的搜索算法，抛弃了旧版缓慢的单线程全盘搜索。经过大众测试，可在**0.2~1s**内找到系统中**95%**的Java。  
+相对MCSL1来说，MCSL2在力求准确度与完整度的基础上，由开发者<a href="https://www.github.com/AresConnor">Ares Connor</a>与<a href="https://www.github.com/ubby">灰太狼</a>共同开发了新的搜索算法，抛弃了旧版缓慢的单线程全盘搜索。经过大众测试，可在 **0.2~1s** 内找到系统中 **95%** 的Java。  
 由于使用模糊搜索，可能有部分Java无法被搜索到，此时请使用手动导入Java。  
 也欢迎在GitHub提出建议。
 

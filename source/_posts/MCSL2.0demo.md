@@ -1,7 +1,8 @@
 ---
-title: MCSL2.0 Demo更新日志
+title: MCSL2.0 Demo更新日志[不要下载！！！！！！！]
 date: 2023-03-05 12:20:47
 tags:
+secret: asdf-asd-asdf-b-wdfg-n-hghnfgh-nn-tj-ghnj-hghj-2tgvbrtsdf-sdf-asdf-sdf-asdf-vc-s-qwer-34-rfg-3rf-ff
 ---
 # 本版本已废弃。死都别下载。
 

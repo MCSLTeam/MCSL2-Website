@@ -634,7 +634,7 @@ body::-webkit-scrollbar-track {
 .input {
     background: #f6f8fa;
     border: 1px solid #d0d7de;
-    border-radius: 50px;
+    border-radius: 5px;
     box-sizing: border-box;
     color: #000;
     display: block;
@@ -764,7 +764,7 @@ a {
 
 .content .code-copy:hover,
 a:hover {
-    opacity: .8
+    opacity: .5
 }
 
 b,
@@ -775,7 +775,7 @@ strong {
 
 blockquote {
     background: rgba(217, 232, 255, .42);
-    border-left: 3px solid #1e3e3f;
+    border-left: 3px solid #66afef;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
