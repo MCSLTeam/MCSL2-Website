@@ -12,7 +12,7 @@ MCSL2基于Python3.8.0和PyQt5技术栈开发，得益于Qt框架与Python环境
     <center>
         <br><br>
         <a href="/MCSL2Guide">← 目录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 1 序言&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/MCSL2Guide/Chapter-2">Chapter 2 - 添加服务器 →</a>
+        <a href="/MCSL2Guide/Chapter-2.html">Chapter 2 - 添加服务器 →</a>
         <br><br><a href="/MCSL2Guide">回到目录</a>
     </center>
 </div>

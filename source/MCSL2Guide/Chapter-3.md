@@ -55,8 +55,8 @@ date: 2023-07-09 17:55:04
 <div>
     <center>
         <br><br>
-        <a href="/MCSL2Guide/Chapter-2">← Chapter 2 - 添加服务器</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 3 - 启动服务器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/MCSL2Guide/Chapter-4">Chapter 4 - 下载功能 →</a>
+        <a href="/MCSL2Guide/Chapter-2.html">← Chapter 2 - 添加服务器</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 3 - 启动服务器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/MCSL2Guide/Chapter-4.html">Chapter 4 - 下载功能 →</a>
         <br><br><a href="/MCSL2Guide">回到目录</a>
     </center>
 </div>

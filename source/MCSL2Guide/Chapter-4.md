@@ -11,8 +11,8 @@ MCSL2官方版永久免费，若有倒卖、交易等行为，MCSL2开发组有�
 <div>
     <center>
         <br><br>
-        <a href="/MCSL2Guide/Chapter-3">← Chapter 3 - 启动服务器</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 4 - 下载功能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/MCSL2Guide/Chapter-5">Chapter 5 - 扩展工具系统 →</a>
+        <a href="/MCSL2Guide/Chapter-3.html">← Chapter 3 - 启动服务器</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 4 - 下载功能&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/MCSL2Guide/Chapter-5.html">Chapter 5 - 扩展工具系统 →</a>
         <br><br><a href="/MCSL2Guide">回到目录</a>
     </center>
 </div>

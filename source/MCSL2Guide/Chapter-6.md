@@ -11,8 +11,8 @@ MCSL2官方版永久免费，若有倒卖、交易等行为，MCSL2开发组有�
 <div>
     <center>
         <br><br>
-        <a href="/MCSL2Guide/Chapter-5">← Chapter 5 - 扩展工具系统</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 6 - 设置&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/MCSL2Guide/Chapter-7">Chapter 7 - 错误反馈 →</a>
+        <a href="/MCSL2Guide/Chapter-5.html">← Chapter 5 - 扩展工具系统</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 6 - 设置&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/MCSL2Guide/Chapter-7.html">Chapter 7 - 错误反馈 →</a>
         <br><br><a href="/MCSL2Guide">回到目录</a>
     </center>
 </div>

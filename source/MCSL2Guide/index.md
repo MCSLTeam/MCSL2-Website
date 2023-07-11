@@ -7,13 +7,13 @@ date: 2023-06-29 12:03:16
 
 <div>
     <center>
-        <br><a href="/MCSL2Guide/Chapter-1">Chapter 1 - 序言</a>
-        <br><br><a href="/MCSL2Guide/Chapter-2">Chapter 2 - 添加服务器</a>
-        <br><br><a href="/MCSL2Guide/Chapter-3">Chapter 3 - 启动服务器</a>
-        <br><br><a href="/MCSL2Guide/Chapter-4">Chapter 4 - 下载功能</a>
-        <br><br><a href="/MCSL2Guide/Chapter-5">Chapter 5 - 扩展工具系统</a>
-        <br><br><a href="/MCSL2Guide/Chapter-6">Chapter 6 - 设置</a>
-        <br><br><a href="/MCSL2Guide/Chapter-7">Chapter 7 - 错误反馈</a>
+        <br><a href="/MCSL2Guide/Chapter-1.html">Chapter 1 - 序言</a>
+        <br><br><a href="/MCSL2Guide/Chapter-2.html">Chapter 2 - 添加服务器</a>
+        <br><br><a href="/MCSL2Guide/Chapter-3.html">Chapter 3 - 启动服务器</a>
+        <br><br><a href="/MCSL2Guide/Chapter-4.html">Chapter 4 - 下载功能</a>
+        <br><br><a href="/MCSL2Guide/Chapter-5.html">Chapter 5 - 扩展工具系统</a>
+        <br><br><a href="/MCSL2Guide/Chapter-6.html">Chapter 6 - 设置</a>
+        <br><br><a href="/MCSL2Guide/Chapter-7.html">Chapter 7 - 错误反馈</a>
     </center>
 </div>
 

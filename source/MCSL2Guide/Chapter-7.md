@@ -11,7 +11,7 @@ MCSL2官方版永久免费，若有倒卖、交易等行为，MCSL2开发组有�
 <div>
     <center>
         <br><br>
-        <a href="/MCSL2Guide/Chapter-6">← Chapter 6 - 设置</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 7 - 错误反馈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/MCSL2Guide/Chapter-6.html">← Chapter 6 - 设置</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 7 - 错误反馈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="/">主页 →</a>
         <br><br><a href="/MCSL2Guide">回到目录</a>
     </center>

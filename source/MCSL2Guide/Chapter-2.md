@@ -185,8 +185,8 @@ MCSL2针对以下功能，已进行了特殊优化：
 <div>
     <center>
         <br><br>
-        <a href="/MCSL2Guide/Chapter-1">← Chapter 1 - 序言</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 2 - 添加服务器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/MCSL2Guide/Chapter-3">Chapter 3 - 启动服务器 →</a>
+        <a href="/MCSL2Guide/Chapter-1.html">← Chapter 1 - 序言</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：Chapter 2 - 添加服务器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/MCSL2Guide/Chapter-3.html">Chapter 3 - 启动服务器 →</a>
         <br><br><a href="/MCSL2Guide">回到目录</a>
     </center>
 </div>
