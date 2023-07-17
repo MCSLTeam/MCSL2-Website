@@ -204,7 +204,6 @@
 }
 
 #home-head #home-info .loop:first-child {
-    animation: loop1 10s linear infinite;
     background: #fff;
     border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
     opacity: .3;
@@ -212,7 +211,6 @@
 }
 
 #home-head #home-info .loop:nth-child(2) {
-    animation: loop2 15s linear infinite;
     background: #fff;
     border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
     opacity: .45;
@@ -220,7 +218,6 @@
 }
 
 #home-head #home-info .loop:nth-child(3) {
-    animation: loop3 10s linear infinite;
     background: #fff;
     border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
     opacity: .3;
@@ -228,7 +225,6 @@
 }
 
 #home-head #home-info .loop:nth-child(4) {
-    animation: loop4 15s linear infinite;
     background: #fff;
     border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
     opacity: .45;
