@@ -5,9 +5,9 @@
 # Site
 title: MCSL 2
 subtitle: '一个简洁全能的Minecraft开服器'
-description: 'Made by LxHTT'
+description: 'Powered by MCSL Team'
 keywords:
-author: MCSL 2
+author: LxHTT
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -103,7 +103,7 @@ theme: particlex-my
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://github.com/LxHTT/MCSLWebsite.git
+  repo: https://github.com/MCSLTeam/MCSLWebsite.git
   branch: master
 archive_generator:
   enabled: true
