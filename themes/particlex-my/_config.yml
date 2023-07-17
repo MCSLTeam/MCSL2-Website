@@ -2,13 +2,13 @@
 # https://github.com/argvchs/hexo-theme-particlex
 
 # Avatar image
-avatar: https://www.helloimg.com/images/2023/04/22/oel3lD.png
+avatar: https://img.fastmirror.net/s/2023/07/17/64b5471e1d478.png
 
 # Home page info block
 headBlockEnable: true
 
 # Home page background image
-background: https://www.helloimg.com/images/2023/04/22/oel13o.jpg
+background: https://img.fastmirror.net/s/2023/07/17/64b5484cb467f.jpg
 
 # ParticleX theme icon is adopts the Font Awesome 6
 # https://fontawesome.com
@@ -58,7 +58,7 @@ card:
     description: |
         一个简洁全能的Minecraft开服器
         
-        Made by **LxHTT**
+        Powered by MCSL Team
     iconLinks:
         落雪无痕的GitHub:
             name: github
@@ -79,7 +79,7 @@ card:
     friendLinks:
         Luoxis 云存储: https://www.df100.ltd
         ZCloud: https://ztsin.cn/
-        FiveCDN公益加速 - MCSLAPI CDN提供者: https://mcserverx.com
+        FiveCDN公益加速 - MCSLAPI CDN提供者: https://cdn.5-5.site
         WB-Block - LxHTT也在的MC服务器: https://wb-block.top
         FENG IDC: https://fengidc.cn
 
