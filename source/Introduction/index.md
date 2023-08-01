@@ -7,10 +7,10 @@ tags:
 # MCSL2   |   一个简洁全能的 Minecraft 服务器启动器
 
 <p align="right">
-——由LxHTT倾心制作
+——由MCSL Team倾心制作
 </p>
 
-| [![](https://img.shields.io/github/license/LxHTT/MCSL2?style=for-the-badge "License")](https://github.com/LxHTT/MCSL2/blob/master/LICENSE) | [![](https://img.shields.io/github/downloads/LxHTT/MCSL2/total?style=for-the-badge "Downloads")](https://github.com/LxHTT/MCSL2/releases) | [![](https://img.shields.io/github/v/tag/LxHTT/MCSL2?label=ver&style=for-the-badge "Version")](https://github.com/LxHTT/MCSL2/releases/latest) | [![LxHTT's Email](https://img.shields.io/badge/%20EMAIL-lxhtz.dl%40qq.com-%2357728B?style=for-the-badge)](mailto:lxhtz.dl@qq.com) |
+| [![](https://img.shields.io/github/license/MCSLTeam/MCSL2?style=for-the-badge "License")](https://github.com/MCSLTeam/MCSL2/blob/master/LICENSE) | [![](https://img.shields.io/github/downloads/MCSLTeam/MCSL2/total?style=for-the-badge "Downloads")](https://github.com/MCSLTeam/MCSL2/releases) | [![](https://img.shields.io/github/v/tag/MCSLTeam/MCSL2?label=ver&style=for-the-badge "Version")](https://github.com/MCSLTeam/MCSL2/releases/latest) | [![LxHTT's Email](https://img.shields.io/badge/%20EMAIL-lxhtz.dl%40qq.com-%2357728B?style=for-the-badge)](mailto:lxhtz.dl@qq.com) |
 |:-----:|:-----:|:-----:|:-----:|
 
 ___
@@ -29,9 +29,9 @@ ___
 |:-----:|:-----:|:-----:|:-----:|
 ___
 ### 相关链接
-GitHub Issue：[https://github.com/LxHTT/MCSL2/issues](https://github.com/LxHTT/MCSL2/issues)  
+GitHub Issue：[https://github.com/MCSLTeam/MCSL2/issues](https://github.com/MCSLTeam/MCSL2/issues)  
 QQ官方群聊：[https://jq.qq.com/?k=b6NlRcJn](https://jq.qq.com/?k=b6NlRcJn)  
-GPLv3开源协议：[https://github.com/LxHTT/MCSL2/blob/master/LICENSE](https://github.com/LxHTT/MCSL2/blob/master/LICENSE)
+GPLv3开源协议：[https://github.com/MCSLTeam/MCSL2/blob/master/LICENSE](https://github.com/MCSLTeam/MCSL2/blob/master/LICENSE)
 ___
 ### 鸣谢
 
@@ -41,4 +41,4 @@ ___
 
 还有所有的贡献者们！  
 
-<a href="https://github.com/LxHTT/MCSL2/graphs/contributors"><img src="https://contrib.rocks/image?repo=LxHTT/MCSL2&anon=1&max=100000000"></a>
+<a href="https://github.com/MCSLTeam/MCSL2/graphs/contributors"><img src="https://contrib.rocks/image?repo=MCSLTeam/MCSL2&anon=1&max=100000000"></a>

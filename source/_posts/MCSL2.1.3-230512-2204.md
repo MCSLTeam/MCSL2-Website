@@ -11,4 +11,4 @@ tags:
  - 将UI的“深色模式”改为“主题模式”
  - 完善了“更多”页面的“打开源代码仓库”和“加入官方群聊”按钮的行为
 
-https://github.com/LxHTT/MCSL2/releases/tag/v2.1.3-230512-2204
+https://github.com/MCSLTeam/MCSL2/releases/tag/v2.1.3-230512-2204

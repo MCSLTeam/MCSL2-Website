@@ -20,4 +20,4 @@ tags:
  - 重构日志系统
  - 滚动列表流畅度
 
-https://github.com/LxHTT/MCSL2/releases/tag/v2.1.3.7
+https://github.com/MCSLTeam/MCSL2/releases/tag/v2.1.3.7

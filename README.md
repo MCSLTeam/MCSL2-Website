@@ -2,7 +2,7 @@
 # MCSL2 官网
 
 <p align="right">
-——由LxHTT倾心制作
+——由MCSL Team倾心制作
 </p>
 
 [![](https://img.shields.io/badge/NodeJS-18.13.0-green.svg?style=for-the-badge "NodeJS")](https://nodejs.org)
@@ -21,7 +21,7 @@
 
 ### 2.克隆本仓库
 ```commandline
-git clone https://github.com/LxHTT/MCSLWebsite.git
+git clone https://github.com/MCSLTeam/MCSLWebsite.git
 ```
 ### 3.安装依赖
 先导航之本项目根目录。

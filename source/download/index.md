@@ -8,7 +8,7 @@ date: 2023-04-22 18:10:16
 #### GitHub 发布页
 ___
 
-[https://www.github.com/LxHTT/MCSL2/releases](https://www.github.com/LxHTT/MCSL2/releases)
+[https://www.github.com/MCSLTeam/MCSL2/releases](https://www.github.com/MCSLTeam/MCSL2/releases)
 
 #### 落雪无痕的SharePoint下载点
 ___

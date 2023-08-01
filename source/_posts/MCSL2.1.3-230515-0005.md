@@ -8,4 +8,4 @@ tags:
 ### ~~修复~~
 ### ~~优化~~
 
-https://github.com/LxHTT/MCSL2/releases/tag/v2.1.3-230515-0005
+https://github.com/MCSLTeam/MCSL2/releases/tag/v2.1.3-230515-0005

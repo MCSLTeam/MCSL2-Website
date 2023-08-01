@@ -13,4 +13,4 @@ tags:
  - 隐藏了搜索Java后由于获取Java信息而弹出的cmd窗口
  - 将显示更新日志的QLabel文字格式改为Markdown并改为可滚动
 
-https://github.com/LxHTT/MCSL2/releases/tag/v2.1.3.5
+https://github.com/MCSLTeam/MCSL2/releases/tag/v2.1.3.5
