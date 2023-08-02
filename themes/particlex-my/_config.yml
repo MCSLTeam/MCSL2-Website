@@ -32,6 +32,10 @@ menu:
         name: download
         theme: solid
         link: /download
+    看乐子:
+        name: face-laugh-squint
+        theme: solid
+        link: /hahaha
     GitHub仓库:
         name: github
         theme: brands
@@ -57,7 +61,7 @@ card:
     enable: true
     description: |
         一个简洁全能的Minecraft开服器
-        
+        [点击此处查看乐子！](https://mcsl.com.cn/hahaha)
         Powered by MCSL Team
     iconLinks:
         落雪无痕的GitHub:
@@ -82,7 +86,7 @@ card:
         Xiexilin: https://xiexilin.com/
         FiveCDN公益加速: https://cdn.5-5.site
         WB-Block: https://wb-block.top
-        FENG IDC: https://fengidc.cn
+        shenjack: https://shenjack.top:81
 
 # Footer info
 footer:
