@@ -48,6 +48,10 @@ menu:
         name: book
         theme: solid
         link: /MCSLAPIGuide
+    爱发电:
+        name: coins
+        theme: solid
+        link: https://afdian.net/a/MCSLTeam
 # 文章目录
 toc:
     enable: true
@@ -61,7 +65,7 @@ card:
     enable: true
     description: |
         一个简洁全能的Minecraft开服器
-        [点击此处查看乐子！](https://mcsl.com.cn/hahaha)
+        [点击此处查看乐子！](/hahaha)
         Powered by MCSL Team
     iconLinks:
         落雪无痕的GitHub:
@@ -80,6 +84,10 @@ card:
             name: qq
             theme: brands
             link: https://jq.qq.com/?_wv=1027&k=x2ISlviQ
+        MCSL2的爱发电:
+            name: coins
+            theme: solid
+            link: https://afdian.net/a/MCSLTeam
     friendLinks:
         维度前端: https://www.df100.ltd
         ZCloud: https://ztsin.cn/

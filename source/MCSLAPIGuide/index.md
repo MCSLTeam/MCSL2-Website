@@ -9,7 +9,7 @@ date: 2023-04-22 18:10:16
 本API支持 ```GET``` 方式调用，例如：
 
 ```http
-GET http://mcsl_api.df100.ltd/json/JavaDownloadInfo.json
+GET https://mcslapi.df100.ltd/json/JavaDownloadInfo.json
 ```
 ## 各个值的解释
 在请求API后，返回的会是像以下格式的答辩。
@@ -19,13 +19,13 @@ GET http://mcsl_api.df100.ltd/json/JavaDownloadInfo.json
   [
     {
       "name": "Java-8-64位-安装版",
-      "url": "http://mcsl_api.df100.ltd/d/Java8_x64.msi",
+      "url": "https://mcslapi.df100.ltd/d/Java8_x64.msi",
       "format": "msi",
       "filename": "Java8_x64"
     },
     {
       "name": "Java-8-32位-安装版",
-      "url": "http://mcsl_api.df100.ltd/d/Java8_x86.msi",
+      "url": "https://mcslapi.df100.ltd/d/Java8_x86.msi",
       "format": "msi",
       "filename": "Java8_x86"
     }
@@ -52,10 +52,10 @@ GET http://mcsl_api.df100.ltd/json/JavaDownloadInfo.json
 ```http
 //示例
 
-http://mcsl_api.df100.ltd/json/SpigotDownloadInfo.json
+https://mcslapi.df100.ltd/json/SpigotDownloadInfo.json
 ```
 
- ```http://mcsl_api.df100.ltd/json/``` 是<font color="red">必需字段</font> ， 再加上 ```请求类型```。
+ ```https://mcslapi.df100.ltd/json/``` 是<font color="red">必需字段</font> ， 再加上 ```请求类型```。
 
 |             请求类型           |
 |:-----------------------------:|
@@ -74,7 +74,7 @@ import json
 import requests # 导入库
 
 # 此处即为Spigot下载信息
-Api_Url = "http://mcsl_api.df100.ltd/json/SpigotDownloadInfo.json"
+Api_Url = "https://mcslapi.df100.ltd/json/SpigotDownloadInfo.json"
 
 # 将读取并解析完的json数据保存至Api_Data中
 Api_Data = json.loads(requests.get(Api_Url).text)['MCSLDownloadList']
@@ -93,7 +93,7 @@ FileName = Api_Data[0]["filename"]
 import json
 import requests # 导入库
 
-Api_Url = "http://mcsl_api.df100.ltd/json/SpigotDownloadInfo.json"
+Api_Url = "https://mcslapi.df100.ltd/json/SpigotDownloadInfo.json"
 
 # 将读取并解析完的json数据保存至Api_Data中
 Api_Data = json.loads(requests.get(Api_Url).text)['MCSLDownloadList']
