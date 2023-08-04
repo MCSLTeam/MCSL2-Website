@@ -65,8 +65,8 @@ card:
     enable: true
     description: |
         一个简洁全能的Minecraft开服器
-        [点击此处查看乐子！](/hahaha)
         Powered by MCSL Team
+        [点击此处查看乐子！](/hahaha)
     iconLinks:
         落雪无痕的GitHub:
             name: github
