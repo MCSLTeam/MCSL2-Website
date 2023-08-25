@@ -21,7 +21,7 @@ date: 2023-06-29 12:03:16
     <center>
         <br><br>
         <a href="/">← 主页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前章节：目录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="/MCSL2Guide/Chapter-1">Chapter 1 - 序言 →</a>
+        <a href="/MCSL2Guide/Chapter-1.html">Chapter 1 - 序言 →</a>
         <br><br><a href="/MCSL2Guide">回到目录</a>
     </center>
 </div>

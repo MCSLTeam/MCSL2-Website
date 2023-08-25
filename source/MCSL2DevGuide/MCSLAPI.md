@@ -1,5 +1,5 @@
 ---
-title: MCSLAPI文档
+title: Dev - MCSLAPI文档
 date: 2023-08-19 20:14:40
 ---
 ## 前言
@@ -114,3 +114,9 @@ for i in Api_Data:
         FileName = i["filename"]
         FileNames.insert(0, FileName)
 ```
+
+<div>
+    <center>
+        <br><br><a href="/MCSL2DevGuide">回到目录</a>
+    </center>
+</div>

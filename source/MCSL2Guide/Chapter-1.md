@@ -6,7 +6,7 @@ date: 2023-06-29 12:03:16
 MCSL2基于Python3.8.0和PyQt5技术栈开发，得益于Qt框架与Python环境的良好兼容性，它可以在几乎所有平台上运行！  
 软件遵循GNU General Public License Version 3.0开源协议，任何没有被MCSL2开发组终止授权的人**都可**自行基于MCSL2继续开发，在保留原作标识的情况下，以明显的、有区分度的名称二次发布。
 **MCSL2官方版永久免费，若有倒卖、交易等行为，MCSL2开发组有权追究售卖者的法律责任。**  
-© 2022-2023. LxHTT. All rights reserved.
+© 2022-2023. MCSL Team. All rights reserved.
 
 <div>
     <center>

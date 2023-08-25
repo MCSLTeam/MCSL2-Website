@@ -44,10 +44,10 @@ menu:
         name: book
         theme: solid
         link: /MCSL2Guide
-    MCSLAPI 文档:
+    MCSL2 开发文档:
         name: book
         theme: solid
-        link: /MCSLAPIGuide
+        link: /MCSL2DevGuide
     爱发电:
         name: coins
         theme: solid
