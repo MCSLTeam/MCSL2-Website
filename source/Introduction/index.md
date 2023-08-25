@@ -29,6 +29,7 @@ ___
 |:-----:|:-----:|:-----:|:-----:|
 ___
 ### 相关链接
+MCSL 2官网：[https://mcsl.com.cn](https://mcsl.com.cn)  
 GitHub Issue：[https://github.com/MCSLTeam/MCSL2/issues](https://github.com/MCSLTeam/MCSL2/issues)  
 QQ官方群聊：[https://jq.qq.com/?k=b6NlRcJn](https://jq.qq.com/?k=b6NlRcJn)  
 GPLv3开源协议：[https://github.com/MCSLTeam/MCSL2/blob/master/LICENSE](https://github.com/MCSLTeam/MCSL2/blob/master/LICENSE)
@@ -36,12 +37,16 @@ ___
 ### 鸣谢
 
  - 维度前端: https://www.df100.ltd  
- - ZCloud: https://ztsin.cn/  
+ - Z_Tsin: https://ztsin.cn/  
  - Xiexilin: https://xiexilin.com/  
  - FiveCDN公益加速: https://cdn.5-5.site  
  - WB-Block: https://wb-block.top  
- - FENG IDC: https://fengidc.cn
+ - shenjack: http://shenjack.top:81
 
 还有所有的贡献者们！  
 
 <a href="https://github.com/MCSLTeam/MCSL2/graphs/contributors"><img src="https://contrib.rocks/image?repo=MCSLTeam/MCSL2&anon=1&max=100000000"></a>
+
+还有，赞助者们！  
+
+[赞助者列表](https://github.com/MCSLTeam/MCSL2/blob/master/Sponsors.md)
