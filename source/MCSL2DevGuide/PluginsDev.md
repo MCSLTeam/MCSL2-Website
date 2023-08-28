@@ -29,7 +29,7 @@ PluginExample/
     "description": "插件示例",
     "icon": ":/built-InIcons/MCSL2.png",
     "author": "MCSL Team",
-    "author_email": "lxhtt@mcsl.com.cn",
+    "author_email": "lxhtt@vip.qq.com",
     "on_new_thread": false
 }
 ```
