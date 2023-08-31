@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
     
 # Site
-title: MCSL 2
+title: MCSL 2 Project
 subtitle: '一个简洁全能的Minecraft开服器'
-description: 'Powered by MCSL Team'
+description: '由 MCSL2 开发组 精心呈现'
 keywords:
-author: MCSL Team
+author: MCSL2 开发组
 language: zh-CN
 timezone: Asia/Shanghai
 

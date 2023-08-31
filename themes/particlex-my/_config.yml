@@ -65,8 +65,7 @@ card:
     enable: true
     description: |
         一个简洁全能的Minecraft开服器
-        Powered by MCSL Team
-        [点击此处查看乐子！](/hahaha)
+        由 MCSL2 开发组 精心呈现
     iconLinks:
         落雪无痕的GitHub:
             name: github
@@ -90,9 +89,10 @@ card:
             link: https://afdian.net/a/MCSLTeam
     friendLinks:
         维度前端: https://www.df100.ltd
-        ZCloud: https://ztsin.cn/
-        Xiexilin: https://xiexilin.com/
+        Z_Tsin: https://ztsin.cn/
+        XieXiLin: https://www.xiexilin.com/
         FiveCDN公益加速: https://cdn.5-5.site
+        玖壹云互联: https://idc.jyywl.com/
         WB-Block: https://wb-block.top
         shenjack: http://shenjack.top:81
         土豆云: https://cloud.tudouyun.link/
