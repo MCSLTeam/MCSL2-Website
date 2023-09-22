@@ -32,10 +32,6 @@ menu:
         name: download
         theme: solid
         link: /download
-    看乐子:
-        name: face-laugh-squint
-        theme: solid
-        link: /hahaha
     GitHub仓库:
         name: github
         theme: brands
