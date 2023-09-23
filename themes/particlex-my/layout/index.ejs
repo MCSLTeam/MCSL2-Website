@@ -1,31 +1,39 @@
 <div id="home-head">
     <div id="home-background" ref="homeBackground" data-image="<%- url_for(theme.background) %>"></div>
     <% if (theme.headBlockEnable) { %>
-    <div id="home-info" @click="homeClick">
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="loop"></span>
-        <span class="info">
-            <div class="wrap">
-                <h1><%= config.title %></h1>
-                <h3><%= config.subtitle %></h3>
-                <h5><%= config.description %></h5>
-            </div>
-        </span>
-    </div>
-    <% } %>
+        <div id="home-info" @click="homeClick">
+            <span class="loop"></span>
+            <span class="loop"></span>
+            <span class="loop"></span>
+            <span class="loop"></span>
+            <span class="info">
+                <div class="wrap">
+                    <h1>
+                        <%= config.title %>
+                    </h1>
+                    <h3>
+                        <%= config.subtitle %>
+                    </h3>
+                    <h5>
+                        <%= config.description %>
+                    </h5>
+                    <a href="/fuckFLSQ"><font size="4em" color="red">点击此处查看乐子！</font></a>
+
+                </div>
+            </span>
+        </div>
+        <% } %>
 </div>
 <div id="home-posts-wrap" <%- theme.card.enable ? "" : 'class="home-posts-wrap-no-card"' %> ref="homePostsWrap">
     <div id="home-posts">
         <div id="posts">
             <%- partial("posts") %>
-            <%- partial("current") %>
+                <%- partial("current") %>
         </div>
     </div>
     <% if (theme.card.enable) { %>
-    <div id="home-card">
-        <%- partial("card") %>
-    </div>
-    <% } %>
+        <div id="home-card">
+            <%- partial("card") %>
+        </div>
+        <% } %>
 </div>

@@ -32,6 +32,10 @@ menu:
         name: download
         theme: solid
         link: /download
+    看乐子:
+        name: face-laugh-squint
+        theme: solid
+        link: /fuckFLSQ
     GitHub仓库:
         name: github
         theme: brands
@@ -62,6 +66,8 @@ card:
     description: |
         一个简洁全能的Minecraft开服器
         由 MCSL2 开发组 精心呈现
+        
+        [点击此处查看乐子！](https://mcsl.com.cn/fuckFLSQ)
     iconLinks:
         落雪无痕的GitHub:
             name: github
