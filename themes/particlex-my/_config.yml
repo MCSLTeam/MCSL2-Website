@@ -103,7 +103,7 @@ footer:
     # Customize the server domain name ICP
     ICP:
         enable: true
-        code: 鲁ICP备2023001164号
+        code: 鲁ICP备2023001164号-2
         link: https://beian.miit.gov.cn/
 
 # Polyfill
