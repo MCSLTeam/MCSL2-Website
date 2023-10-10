@@ -58,7 +58,7 @@ toc:
 
 # 图片懒加载
 lazyload:
-    enable: false
+    enable: true
 
 # Side info card
 card:
@@ -73,7 +73,7 @@ card:
             name: github
             theme: brands
             link: https://www.github.com/LxHTT
-        MCSL2的Github主页:
+        开发组的GitHub:
             name: github
             theme: brands
             link: https://www.github.com/MCSLTeam
@@ -102,9 +102,9 @@ footer:
     since: 2022
     # Customize the server domain name ICP
     ICP:
-        enable: false
-        code:
-        link:
+        enable: true
+        code: 鲁ICP备2023001164号
+        link: https://beian.miit.gov.cn/
 
 # Polyfill
 # https://polyfill.io
