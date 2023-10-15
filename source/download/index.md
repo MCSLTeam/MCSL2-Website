@@ -7,11 +7,6 @@ ___
 
 [https://www.github.com/MCSLTeam/MCSL2/releases](https://www.github.com/MCSLTeam/MCSL2/releases)
 
-#### 落雪无痕的SharePoint下载点
-___
-
-[https://lxhtt-my.sharepoint.com/:f:/g/personal/lxhtt_lxhtt_onmicrosoft_com/Er2XmdrCZkZGhXrk7EB2eyABTsO2Jfwbq3OYsdGkjUtMRA?e=DNjfA8](https://lxhtt-my.sharepoint.com/:f:/g/personal/lxhtt_lxhtt_onmicrosoft_com/Er2XmdrCZkZGhXrk7EB2eyABTsO2Jfwbq3OYsdGkjUtMRA?e=DNjfA8)
-
 #### 蓝奏云
 ___
 
