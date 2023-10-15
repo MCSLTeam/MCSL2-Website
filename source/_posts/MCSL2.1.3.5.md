@@ -1,7 +1,7 @@
 ---
 title: MCSL2 2.1.3.5更新日志
 date: 2023-05-21 00:05:47
-tags:
+tags: [out-of-date, update-log]
 ---
 ### 新功能
  - 增加了选择窗口布局的功能

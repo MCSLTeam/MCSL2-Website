@@ -1,7 +1,7 @@
 ---
 title: MCSL 1.0更新日志
 date: 2022-08-27 23:17:06
-tags:
+tags: [end-of-life, out-of-date, update-log]
 ---
 v1.0更新日志：
 初版。

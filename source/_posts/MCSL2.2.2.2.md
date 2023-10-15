@@ -1,7 +1,7 @@
 ---
 title: MCSL2 2.2.2.2更新日志
 date: 2023-10-05 00:11:30
-tags:
+tags: [release, update-log]
 ---
 ### 新功能  
  - 内置更新模块（后续可直接在程序内更新） 

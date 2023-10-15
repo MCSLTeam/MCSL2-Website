@@ -1,7 +1,7 @@
 ---
 title: MCSL2 2.2.1.2更新日志
 date: 2023-08-25 15:17:28
-tags:
+tags: [release, update-log]
 ---
 
 <div class="custom-block danger">

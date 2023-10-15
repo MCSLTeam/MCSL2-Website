@@ -1,7 +1,7 @@
 ---
 title: MCSL2 2.2.1.1更新日志
 date: 2023-08-24 16:17:28
-tags:
+tags: [release, update-log]
 ---
 
 ### 新功能  

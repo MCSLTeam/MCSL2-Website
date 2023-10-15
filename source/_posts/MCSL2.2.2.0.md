@@ -1,7 +1,7 @@
 ---
 title: MCSL2 2.2.2.0更新日志
 date: 2023-09-05 18:40:11
-tags:
+tags: [release, update-log]
 ---
 ### 新功能  
  - 为Minecraft 1.8及以上的版本添加了Forge安装的功能  

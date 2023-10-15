@@ -1,7 +1,7 @@
 ---
 title: MCSL 1.2更新日志
 date: 2022-09-10 23:17:17
-tags:
+tags: [end-of-life, out-of-date, update-log]
 ---
 v1.2更新日志：
 整合各个下载程序，集成而强大。

@@ -1,7 +1,7 @@
 ---
 title: MCSL2 2.2.0.0更新日志
 date: 2023-08-16 14:35:16
-tags:
+tags: [release, update-log]
 ---
 
 <div class="custom-block tip">

@@ -1,7 +1,7 @@
 ---
 title: MCSL2 2.1.3-230515-0005更新日志
 date: 2023-05-15 00:05:47
-tags:
+tags: [end-of-life, out-of-date, update-log]
 ---
 ### 新功能
  - 完善了“更多”页面的打开源代码仓库和加入官方群聊按钮的行为

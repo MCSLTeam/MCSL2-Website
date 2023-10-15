@@ -1,7 +1,7 @@
 ---
 title: MCSL 1.1更新日志
 date: 2022-08-27 23:17:11
-tags:
+tags: [end-of-life, out-of-date, update-log]
 ---
 v1.1更新日志：
 修复在未选择Jar情况下闪退的Bug

@@ -1,7 +1,7 @@
 ---
 title: MCSL 1.3更新日志
 date: 2022-12-25 23:17:22
-tags:
+tags: [end-of-life, out-of-date, update-log, final-version]
 ---
 v1.3更新日志：
 优化代码逻辑和UI，减小程序目录臃肿程度。
