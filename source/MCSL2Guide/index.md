@@ -3,7 +3,6 @@ title: MCSL2使用文档
 date: 2023-06-29 12:03:16
 ---
 # 目录
-由于Hexo及采用的主题限制，我只能这样了。 <p align="right"><i>——LxHTT</i></p>
 
 <div>
     <center>

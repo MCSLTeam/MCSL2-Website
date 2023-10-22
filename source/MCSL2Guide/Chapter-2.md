@@ -34,7 +34,7 @@ MCSL2的`添加服务器`功能位于`配置`页。
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
   <p>
-  可以使用MCSL2的自动查找Java功能。详见  <a href="/MCSL2Guide/Chapter-2#%E8%A1%A5%E5%85%85">补充</a>
+  可以使用MCSL2的自动查找Java功能。详见  <a href="/MCSL2Guide/Chapter-2.html#%E8%A1%A5%E5%85%85">补充</a>
   </p>
 </div>
 
