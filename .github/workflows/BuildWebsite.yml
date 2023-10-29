@@ -40,7 +40,7 @@ jobs:
         run: npm run build
       
       - name: Compress Release Assets
-        run: 7z a -r ${{ env.TAG_TIME }}.zip ./public/*
+        run: 7z a -r ${{ env.TAG_TIME }}.zip ./MCSL-Web/*
       
       - name: Release
         uses: softprops/action-gh-release@v1
