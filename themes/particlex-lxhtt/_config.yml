@@ -219,7 +219,7 @@ waline:
 # https://github.com/imaegoo/twikoo
 twikoo:
     enable: true
-    envID: http://mcsl2-comment.ymbot.top/.netlify/functions/twikoo
+    envID: https://mcsl2-comment.ymbot.top/.netlify/functions/twikoo
     region: zh-CN
     path: location.pathname
     lang: zh-CN
