@@ -6,7 +6,7 @@ tags: [release, update-log]
 
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>由于此次更新完全重构，您需要删除旧的<code>MCSL2_Config.json</code>防止程序无法启动。  
+  <p class="custom-block-text">由于此次更新完全重构，您需要删除旧的<code>MCSL2_Config.json</code>防止程序无法启动。  
 macOS用户，请静待新版，或使用Linux版本代替。在下载Linux版本后，打开终端， <code>sudo chmod +x MCSL2主程序</code> 即可。
 其余更新内容可自行翻阅Git History。</p>
 </div>

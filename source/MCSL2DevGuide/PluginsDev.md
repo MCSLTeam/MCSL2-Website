@@ -15,7 +15,7 @@ PluginExample/
 ```
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   插件的名称必须与文件夹名、config.json的`plugin_name`的值 和 Python 脚本中的声明变量名称相同。
   </p>
 </div>

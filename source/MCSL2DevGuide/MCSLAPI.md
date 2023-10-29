@@ -10,7 +10,7 @@ date: 2023-08-19 20:14:40
 
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>本API已全面升级，转移到了IPFS网络上。您需要拥有一个IPFS网关来使用此API。</p>
+  <p class="custom-block-text">本API已全面升级，转移到了IPFS网络上。您需要拥有一个IPFS网关来使用此API。</p>
 </div>
 
 ```http
@@ -48,7 +48,7 @@ GET 您的IPFS网关/ipns/mcslapiipfs.x-xh.cn/SharePoint/JavaDownloadInfo.json
 
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>请将索引值修改正确，或使用循环语句读取再使用！</p>
+  <p class="custom-block-text">请将索引值修改正确，或使用循环语句读取再使用！</p>
 </div>
 
 ## API请求的链接

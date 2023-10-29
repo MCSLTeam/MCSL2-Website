@@ -7,7 +7,7 @@ date: 2023-07-09 17:55:04
 
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   如果没有可启动的服务器，MCSL2将提示，并引导添加服务器。
   <br><strong>如果点击对话框的按钮，窗口关闭，但主界面UI出现问题，请按下键盘上的<code>Alt</code>或者<code>Option</code>键。后期，我们也会继续跟进、优化此问题。</strong>
   </p>
@@ -32,15 +32,15 @@ date: 2023-07-09 17:55:04
 
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   此功能可在<code>设置</code>页面中选择开启/关闭。
   </p>
-  <p>
+  <p class="custom-block-text">
   还有更多的功能可以加入。有任何建议，欢迎在
   <a href="https://www.github.com/MCSLTeam/MCSL2/discussions">GitHub Discussions</a>
   中提出。
   </p>
-  <p align="right"><i>——LxHTT</i></p>
+  <p align="right" class="custom-block-text"><i>——LxHTT</i></p>
 </div>
 
 ### 发送指令  

@@ -9,9 +9,21 @@ tags:
 <p align="right">
 ——由MCSL Team倾心制作
 </p>
-
-| [![](https://img.shields.io/github/license/MCSLTeam/MCSL2?style=for-the-badge "License")](https://github.com/MCSLTeam/MCSL2/blob/master/LICENSE) | [![](https://img.shields.io/github/downloads/MCSLTeam/MCSL2/total?style=for-the-badge "Downloads")](https://github.com/MCSLTeam/MCSL2/releases) | [![](https://img.shields.io/github/v/tag/MCSLTeam/MCSL2?label=ver&style=for-the-badge "Version")](https://github.com/MCSLTeam/MCSL2/releases/latest) | [![LxHTT's Email](https://img.shields.io/badge/%20EMAIL-lxhtt%40mcsl.com.cn-%2357728B?style=for-the-badge)](mailto:lxhtt@vip.qq.com) |
-|:-----:|:-----:|:-----:|:-----:|
+<div>
+    <a href="https://github.com/MCSLTeam/MCSL2/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/MCSLTeam/MCSL2?style=for-the-badge" alt="License">
+    </a>
+    <a href="https://github.com/MCSLTeam/MCSL2/releases">
+    <img src="https://img.shields.io/github/downloads/MCSLTeam/MCSL2/total?style=for-the-badge" alt="Downloads">
+    </a>
+    <a href="https://github.com/MCSLTeam/MCSL2/releases/latest">
+    <img src="https://img.shields.io/github/v/tag/MCSLTeam/MCSL2?label=ver&style=for-the-badge" alt="Version">
+    </a>
+    <a href="mailto:lxhtt@vip.qq.com">
+    <img src="https://img.shields.io/badge/%20EMAIL-lxhtt%40mcsl.com.cn-%2357728B?style=for-the-badge" alt="LxHTT's Email">
+    </a>
+    <br>
+</div>
 
 ___
 

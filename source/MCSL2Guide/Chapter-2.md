@@ -33,7 +33,7 @@ MCSL2的`添加服务器`功能位于`配置`页。
 请务必选择与Minecraft版本对应的Java版本，否则可能导致服务器无法启动！  
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   可以使用MCSL2的自动查找Java功能。详见  <a href="/MCSL2Guide/Chapter-2.html#%E8%A1%A5%E5%85%85">补充</a>
   </p>
 </div>
@@ -41,7 +41,7 @@ MCSL2的`添加服务器`功能位于`配置`页。
 #### 内存设置  
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   简易模式仅提供了以<code>M</code>（即<code>MiB</code>）为单位的内存设置。
   </p>
 </div>
@@ -53,7 +53,7 @@ MCSL2的`添加服务器`功能位于`配置`页。
 Minecraft的服务器核心为以`jar`为扩展名的Java可执行文件。你可以通过`选择核心`来导入你的服务器核心。  
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   你可以通过MCSL2的`下载`功能下载服务器核心。
   </p>
 </div>
@@ -89,7 +89,7 @@ Minecraft的服务器核心为以`jar`为扩展名的Java可执行文件。你�
 进阶模式在简易模式的基础上，可再设置JVM的参数，以及服务器输入输出流的编码设置。MCSL2在进阶模式中提供了一些便捷的优化参数可供使用。  
 <div class="custom-block tip">
   <p class="custom-block-title">建议</p>
-  <p>
+  <p class="custom-block-text">
   进阶模式我认为还是不够完整。如果有任何功能建议，欢迎在
   <a href="https://www.github.com/MCSLTeam/MCSL2/discussions">GitHub Discussions</a>
   中提出。
@@ -122,7 +122,7 @@ MCSL2提供了多种导入服务器的方式/类型。
 #### 导入 服务器 存档  
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   此处的定义即为<code>没有开服脚本</code>、<code>没有服务器核心</code>。
   </p>
 </div>
@@ -154,7 +154,7 @@ MCSL2提供了多种导入服务器的方式/类型。
 #### 导入 MCSManager 8 的服务器  
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   尽管MCSM8已停止更新，MCSL2经决定仍对其制作导入选项。导入选项基于其<code>8.9.0 Final Version</code>制作。
   </p>
 </div>
@@ -166,7 +166,7 @@ MCSL2提供了多种导入服务器的方式/类型。
 #### 导入 MCSManager 9 的服务器  
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>
+  <p class="custom-block-text">
   MCSM9的服务器配置文件与MCSM8的互不兼容，请务必选择正确的方式，以顺利完成导入。
   </p>
 </div>

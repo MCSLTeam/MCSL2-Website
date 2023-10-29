@@ -73,7 +73,7 @@ def startAria2(self) -> bool:
 ```
 <div class="custom-block tip">
   <p class="custom-block-title">提示</p>
-  <p>您应该使用启动Aria2的线程启动，而不是直接调用此方法。</p>
+  <p class="custom-block-text">您应该使用启动Aria2的线程启动，而不是直接调用此方法。</p>
 </div>
 
 ##### 测试Aria2
