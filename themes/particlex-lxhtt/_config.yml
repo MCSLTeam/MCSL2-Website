@@ -28,10 +28,6 @@ menu:
         name: house
         theme: solid
         link: /
-    简介:
-        name: book
-        theme: solid
-        link: /Introduction
     更新日志:
         name: box-archive
         theme: solid
@@ -40,28 +36,12 @@ menu:
         name: download
         theme: solid
         link: /download
-    看乐子:
-        name: face-laugh-squint
-        theme: solid
-        link: /fuckFLSQ
-    GitHub仓库:
-        name: github
-        theme: brands
-        link: https://www.github.com/MCSLTeam/MCSL2
-    MCSL2 文档:
+    相关链接:
         name: book
         theme: solid
-        link: /MCSL2Guide
-    MCSL2 开发文档:
-        name: book
-        theme: solid
-        link: /MCSL2DevGuide
-    爱发电:
-        name: coins
-        theme: solid
-        link: https://afdian.net/a/MCSLTeam
+        link: /links
     留言板:
-        name: book
+        name: comment
         theme: solid
         link: /board
 
