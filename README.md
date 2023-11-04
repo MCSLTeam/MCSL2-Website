@@ -10,7 +10,7 @@
 
 <div>
     基于 <a href="https://hexo.io">Hexo 框架</a> &amp;
-    由 <a href="https://github.com/IceOfSummer">IceOfSummer</a>
+    由 <a href="https://github.com/IceOfSummer">IceOfSummer</a>、<a href="https://github.com/YuziO2">YuziO2</a>
     和 <a href="https://github.com/LxHTT">LxHTT</a>
     魔改的 <a href="https://github.com/argvchs/hexo-theme-particlex">ParticleX 主题</a>
 </div>
@@ -24,9 +24,9 @@
 git clone https://github.com/MCSLTeam/MCSLWebsite.git
 ```
 ### 3.安装依赖
-先导航之本项目根目录。
+先导航到本项目根目录。
 ```commandline
-npm install hexo-cli -save
+npm i
 ```
 ### 4.运行
 #### 本地运行
@@ -42,4 +42,4 @@ hexo g
 hexo cl
 hexo g
 ```
-构建后的文件在根目录的`public`文件夹中。
+构建后的文件在根目录的`MCSL-Web`文件夹中。
