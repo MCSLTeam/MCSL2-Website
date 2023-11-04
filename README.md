@@ -16,29 +16,29 @@
 </div>
 
 ## 用法
-### 1.安装node
-不必多说。  
+### 1.安装nodejs
+https://nodejs.cn/download/
 
 ### 2.克隆本仓库
-```commandline
+```bash
 git clone https://github.com/MCSLTeam/MCSLWebsite.git
 ```
 ### 3.安装依赖
 先导航到本项目根目录。
-```commandline
+```bash
 npm i
 ```
 ### 4.运行
 #### 本地运行
-```commandline
+```bash
 hexo s
 ```
 #### 构建
-```commandline
+```bash
 hexo g
 ```
 如果遇到构建后仍没有变化的情况，可执行以下指令:
-```commandline
+```bash
 hexo cl
 hexo g
 ```
