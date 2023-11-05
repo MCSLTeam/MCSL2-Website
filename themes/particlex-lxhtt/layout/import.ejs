@@ -55,6 +55,9 @@
 <% if (theme.twikoo.enable) { %>
 <script src="https://cdn.staticfile.org/twikoo/1.6.22/twikoo.all.min.js"></script>
 <% } %>
+<% if (theme.valine.enable) { %>
+<script src="https://unpkg.com/valine/dist/Valine.min.js"></script>
+<% } %>
 <% } %>
 <% if (type === "index") { %>
 <script src="<%- url_for("/js/lib/home.js") %>"></script>

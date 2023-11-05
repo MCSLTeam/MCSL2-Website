@@ -203,3 +203,19 @@ twikoo:
     region: zh-CN
     path: location.pathname
     lang: zh-CN
+
+# Valine
+# https://valine.js.org
+valine:
+    enable: false
+    appId: 4ViV1kDY37cj8xq7I00JZpDe-gzGzoHsz
+    appKey: DiqQ8lvCuPLSZmpmd5vY7r8M
+    placeholder: 说点什么吧~
+    lang: zh-CN
+    path: location.pathname
+    visitor: false
+    avatar: 'mp'
+    serverURLs: 'https://comment-api.mcsl.com.cn'
+    pageSize: 10
+    recordIP: false
+    enableQQAvatarByNick: true

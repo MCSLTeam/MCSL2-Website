@@ -18,7 +18,8 @@
     "gitalk",
     "twikoo",
     "waline",
-    "giscus"
+    "giscus",
+    "valine"
   ],
   "author": "Argvchs",
   "license": "MIT",
