@@ -36,6 +36,10 @@ menu:
         name: download
         theme: solid
         link: /download
+    风林水起乐子:
+        name: face-laugh-squint
+        theme: solid
+        link: /flsq
     相关链接:
         name: book
         theme: solid
