@@ -40,7 +40,7 @@ comments: false
 </div>
 <br>
 <div class="icon-link" style="text-align: center;">
-    <a target="_blank" rel="noopener" href="/fuckFLSQ">
+    <a target="_blank" rel="noopener" href="/flsq">
         <i class="fa-solid fa-face-laugh-squint fa-fw"></i>
         看风林水起乐子！ 
     </a>

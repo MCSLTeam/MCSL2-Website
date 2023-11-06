@@ -1,6 +1,6 @@
 ---
-title: 乐子！
-date: 7777-12-21 00:00:00
+title: 风林水起乐子神话！
+date: 2023-11-04 19:04:57
 tags:
 ---
 
@@ -41,3 +41,6 @@ tags:
 太炸裂了 缓解我一天的学习压力🤣👉🏻🤡  
 ![hhh](https://img.fastmirror.net/s/2023/09/23/650eab7240eda.png)
 ![hhhx2](https://img.fastmirror.net/s/2023/08/02/64ca520a69c49.jpg)
+
+### 2nd
+[点此查看续作！](https://mcsl.com.cn/fuckFLSQ_2nd)
