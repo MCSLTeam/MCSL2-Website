@@ -1,6 +1,7 @@
 ---
 title: 下载 MCSL2
 date: 2023-08-19 20:17:30
+toc: false
 ---
 #### GitHub 发布页
 ___

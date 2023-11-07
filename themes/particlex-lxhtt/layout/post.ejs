@@ -54,7 +54,12 @@
         <div class="content" ref="content" v-show="cryptoStatus === 'success'"></div>
     </transition>
     <% } else { %>
-    <div class="content" v-pre>
+    <% if (theme.toc) { %>
+    <% if (page.toc) { %>
+    <toc-component></toc-component>
+    <% } %>
+    <% } %>
+    <div class="content" v-pre id="main-content">
         <%- page.content %>
     </div>
     <% } %>

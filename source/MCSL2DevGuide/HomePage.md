@@ -1,6 +1,7 @@
 ---
 title: Dev - MCSL2 主页
 date: 2023-08-19 20:14:40
+toc: true
 ---
 ./MCSL2Lib/homePage.py  
 

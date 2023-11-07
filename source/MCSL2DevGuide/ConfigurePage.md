@@ -1,6 +1,7 @@
 ---
 title: Dev - MCSL2 新建服务器页
 date: 2023-08-19 20:14:40
+toc: true
 ---
 ### 导入库
 ```python

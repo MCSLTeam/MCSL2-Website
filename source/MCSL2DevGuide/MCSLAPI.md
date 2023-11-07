@@ -1,6 +1,7 @@
 ---
 title: Dev - MCSLAPI文档
 date: 2023-08-19 20:14:40
+toc: true
 ---
 ## 前言
 本API由<font color="#e31f1f">可爱的</font>[十织](https://www.df100.ltd/)提供，在此表示真挚的感谢！  

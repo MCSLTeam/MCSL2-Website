@@ -1,6 +1,7 @@
 ---
 title: Dev - MCSL2 Aria2控制器
 date: 2023-08-19 20:14:40
+toc: true
 ---
 ./MCSL2Lib/aria2Controller.py  
 ### Aria2控制器主类

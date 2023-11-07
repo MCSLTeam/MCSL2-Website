@@ -1,6 +1,7 @@
 ---
 title: Dev - MCSL2开发文档
 date: 2023-08-25 12:03:16
+toc: false
 ---
 # 目录
 由于Hexo及采用的主题限制，我只能这样了。 <p align="right"><i>——LxHTT</i></p>

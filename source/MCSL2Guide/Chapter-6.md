@@ -1,6 +1,7 @@
 ---
 title: Chapter 6 - 设置
 date: 2023-06-29 12:03:16
+toc: true
 ---
 本文档为MCSL2的官方文档。~~废话文学~~  
 MCSL2基于Python3.8.0和PyQt5技术栈开发，得益于Qt框架与Python环境的良好兼容性，它可以在几乎所有平台上运行！  

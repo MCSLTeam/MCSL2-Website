@@ -1,6 +1,7 @@
 ---
 title: Chapter 4 - 下载功能
 date: 2023-07-17 22:10:16
+toc: true
 ---
 由于成本原因，MCSL 2现在内置了两个下载源：  
  - FastMirror  

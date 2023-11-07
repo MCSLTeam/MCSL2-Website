@@ -2,6 +2,7 @@
 title: MCSL2简介
 date: 7777-12-21 00:05:47
 tags:
+toc: true
 ---
 ![MCSL 2 大头图](https://s3.bmp.ovh/imgs/2023/03/21/5afb21934bd980ab.png)
 # MCSL2   |   一个简洁全能的 Minecraft 服务器启动器
