@@ -51,7 +51,7 @@ menu:
 
 # 文章目录
 toc:
-    enable: true
+    enable: false
 
 # 图片懒加载
 lazyload:
