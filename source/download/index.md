@@ -6,7 +6,7 @@ toc: false
 #### GitHub 发布页
 ___
 
-[https://www.github.com/MCSLTeam/MCSL2/releases](https://www.github.com/MCSLTeam/MCSL2/releases)
+[https://github.com/MCSLTeam/MCSL2/releases](https://github.com/MCSLTeam/MCSL2/releases)
 
 #### 蓝奏云
 ___
