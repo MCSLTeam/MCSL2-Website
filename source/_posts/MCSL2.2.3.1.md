@@ -34,3 +34,5 @@ tags: [release, update-log]
 - 内存占用  
 - 终端显示服务器名称  
 - 自动查找Java  
+
+https://github.com/MCSLTeam/MCSL2/releases/tag/v2.2.3.1
