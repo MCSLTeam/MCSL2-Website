@@ -133,7 +133,22 @@ export default defineConfig({
             link: "/update-log/v1.0",
           }
         ]
-      }
+      },
+      {
+        text: "乐子风林水起",
+        link: "/flsq/",
+        collapsed: true,
+        items: [
+          {
+            text: "第一传",
+            link: "/flsq/",
+          },
+          {
+            text: "续作",
+            link: "/flsq/fuckFLSQ_2nd",
+          }
+        ]
+      },
     ],
     footer: {
       message: 'Site built by LxHTT / Powered by VitePress',
