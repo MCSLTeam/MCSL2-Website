@@ -70,7 +70,11 @@ export default defineConfig({
           {
             text: '下载模块',
             link: '/doc/dev/downloads',
-          }
+          },
+          {
+            text: '插件开发',
+            link: '/doc/dev/plugins',
+          },
         ]
       },
       {
