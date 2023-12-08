@@ -15,7 +15,7 @@ hero:
       link: /download
     - theme: alt
       text: 文档
-      link: /docs/
+      link: /doc/
     - theme: alt
       text: GitHub
       link: https://github.com/MCSLTeam/MCSL2
@@ -24,7 +24,7 @@ features:
   - title: 面向各阶用户
     icon: 👨🏻‍💻
     details: 提供简易模式、进阶模式、导入模式，满足各阶用户的需求。
-    link: /docs/user/new-server
+    link: /doc/user/configure-server
     linkText: 查看用法
   - title: 界面简洁美观
     icon: 💻
@@ -34,7 +34,7 @@ features:
   - title: 一键下载资源
     icon: ⏬
     details: 接入FastMirror、MCSLAPI、极星镜像站、Akira镜像站，飞速下载所需。
-    link: /docs/user/downloads
+    link: /doc/user/downloads
     linkText: 了解更多
   - title: 自动查找Java
     icon: ✅
@@ -47,7 +47,7 @@ features:
   - title: 自研插件系统
     icon: 🔧
     details: 利用Python特性实现，无限可能。
-    link: /docs/dev/plugins
+    link: /doc/dev/plugins
     linkText: 开发文档
   - title: 开源透明公开
     icon: 🚪

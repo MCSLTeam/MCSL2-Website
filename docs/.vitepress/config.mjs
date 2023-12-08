@@ -22,8 +22,8 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '下载', link: '/download' },
       { text: '更新日志', link: '/update-log/' },
-      { text: '文档', link: '/doc' },
-      { text: '爱发电', link: 'https://afdian.net/a/MCSLTeam/' }
+      { text: '文档', link: '/doc/' },
+      { text: '相关链接', link: '/links/' },
     ],
     sidebar: [
       {
@@ -31,8 +31,12 @@ export default defineConfig({
         link: '/download',
       },
       {
-        text: '文档',
-        link: '/docs/',
+        text: '用户使用文档',
+        link: '/doc/user/',
+      },
+      {
+        text: '开发文档',
+        link: '/doc/dev/',
       },
       {
         text: "更新日志",
