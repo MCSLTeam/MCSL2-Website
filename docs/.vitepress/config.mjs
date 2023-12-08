@@ -34,10 +34,44 @@ export default defineConfig({
       {
         text: '用户使用文档',
         link: '/doc/user/',
+        collapsed: true,
+        items: [
+          {
+            text: '快速上手',
+            link: '/doc/user/get-started',
+          },
+          {
+            text: '配置服务器',
+            link: '/doc/user/configure-server',
+          },
+          {
+            text: '管理服务器',
+            link: '/doc/user/manage-server',
+          },
+          {
+            text: '下载资源',
+            link: '/doc/user/downloads',
+          },
+          {
+            text: '终端',
+            link: '/doc/user/console',
+          },
+          {
+            text: '插件',
+            link: '/doc/user/plugins',
+          },
+        ]
       },
       {
         text: '开发文档',
         link: '/doc/dev/',
+        collapsed: true,
+        items: [
+          {
+            text: '下载模块',
+            link: '/doc/dev/downloads',
+          }
+        ]
       },
       {
         text: "更新日志",
