@@ -44,4 +44,4 @@ yarn run docs:dev
 yarn run docs:build
 ```
 
-构建后的文件在`.vitepress/dist`文件夹中。
+构建后的文件在`docs/.vitepress/dist`文件夹中。

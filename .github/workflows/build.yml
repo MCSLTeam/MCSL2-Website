@@ -1,0 +1,58 @@
+name: Build VitePress Website
+on: [push, workflow_dispatch]
+permissions: write-all
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⏰Set time zone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: 'Asia/Shanghai'
+        
+      - name: ⏰Get Time
+        run: |
+          echo "TAG_TIME=$(date +"%y%m%d-%H%M")" >> $GITHUB_ENV
+          
+      - name: 🛒Check out Git Repository
+        uses: actions/checkout@v3
+
+      - name: 🔧Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: 🔧Install 7z
+        run: sudo apt install p7zip-full -y
+      
+      - name: ⏬Cache NPM Dependencies
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+            
+      - name: 🔧Install Dependencies
+        run: yarn install
+        
+      - name: 🚪Build
+        run: yarn run docs:build
+      
+      - name: 🚪Compress Release Assets
+        run: 7z a -r ${{ env.TAG_TIME }}.zip ./docs/.vitepress/dist/*
+      
+      - name: 🚪Release
+        uses: softprops/action-gh-release@v1
+        with:
+          body: "update."
+          prerelease: false
+          draft: false
+          tag_name: ${{ env.TAG_TIME }}
+          files: ${{ env.TAG_TIME }}.zip
+        
+      - name: Deploy to GitHub Page
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/.vitepress/dist
