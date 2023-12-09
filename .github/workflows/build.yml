@@ -55,13 +55,6 @@ jobs:
         id: algolia_config
         run: echo "config=$(cat crawlerConfig.json | jq -r tostring)" >> $GITHUB_OUTPUT
 
-      - name: Push indices to Algolia
-        uses: signcl/docsearch-scraper-action@master
-        env:
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-          API_KEY: ${{ secrets.API_KEY }}
-          CONFIG: ${{ steps.algolia_config.outputs.config }}
-
       - name: Sync with ZCloud
         run: |
             cd docs/.vitepress/dist
@@ -71,3 +64,10 @@ jobs:
             git add .
             git commit -m "Deploy Vitepress"
             git push -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git master:public
+
+      - name: Push indices to Algolia
+        uses: signcl/docsearch-scraper-action@master
+        env:
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          API_KEY: ${{ secrets.API_KEY }}
+          CONFIG: ${{ steps.algolia_config.outputs.config }}
