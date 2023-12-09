@@ -2,7 +2,7 @@ name: Update Algolia
 on: workflow_dispatch
 permissions: write-all
 jobs:
-  Build:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Get Algolia Config
