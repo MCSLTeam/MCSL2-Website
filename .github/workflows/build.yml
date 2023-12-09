@@ -61,8 +61,8 @@ jobs:
             git commit -m "Deploy Vitepress"
             git remote add origin https://github.com/MCSLTeam/MCSLWebsite.git
             git push origin public
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: public
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: public
