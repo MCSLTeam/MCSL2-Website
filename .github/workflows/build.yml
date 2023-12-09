@@ -50,9 +50,14 @@ jobs:
           draft: false
           tag_name: ${{ env.TAG_TIME }}
           files: ${{ env.TAG_TIME }}.zip
-        
-      - name: Deploy to GitHub Page
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/.vitepress/dist
+  
+      - name: Get Algolia Config
+        id: algolia_config
+        run: echo "config=$(cat crawlerConfig.json | jq -r tostring)" >> $GITHUB_OUTPUT
+
+      - name: Push indices to Algolia
+        uses: signcl/docsearch-scraper-action@master
+        env:
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          API_KEY: ${{ secrets.API_KEY }}
+          CONFIG: ${{ steps.algolia_config.outputs.config }}

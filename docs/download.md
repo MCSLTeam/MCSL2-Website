@@ -21,3 +21,7 @@
 [蓝奏云3（密码MCSL）](https://lxht.lanzoug.com/b01edy9tg)
 
 [蓝奏云4（密码MCSL）](https://lxht.lanzoub.com/b01edy9tg)
+
+## 其他  
+
+如果MCSL2 Windows版缺失aria2c.exe可在[此处](/files/aria2c.exe)下载，并放进`./MCSL2/Aria2/`中。
