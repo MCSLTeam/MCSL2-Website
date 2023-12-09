@@ -63,7 +63,12 @@ jobs:
             git config --local user.name "github-actions[bot]"
             git add .
             git commit -m "Deploy Vitepress"
-            git push -f git@github.com:MCSLTeam/MCSLWebsite.git master:public
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: public
 
       - name: Push indices to Algolia
         uses: signcl/docsearch-scraper-action@master
