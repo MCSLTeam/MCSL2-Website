@@ -205,7 +205,7 @@ export default defineConfig({
         appId: "J9SENYL9QI",
         apiKey: "94bf0d70788ed044d42bb9254b41b0da",
         indexName: "mcsl",
-        placeholder: "搜索楞何楞想要得嘢？",
+        placeholder: "搜索...",
         translations: {
           button: {
             buttonText: "搜索...",
