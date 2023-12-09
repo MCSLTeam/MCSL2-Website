@@ -50,10 +50,6 @@ jobs:
           draft: false
           tag_name: ${{ env.TAG_TIME }}
           files: ${{ env.TAG_TIME }}.zip
-  
-      - name: Get Algolia Config
-        id: algolia_config
-        run: echo "config=$(cat crawlerConfig.json | jq -r tostring)" >> $GITHUB_OUTPUT
 
       - name: Sync with ZCloud
         run: |
@@ -69,10 +65,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: public
-
-      - name: Push indices to Algolia
-        uses: signcl/docsearch-scraper-action@master
-        env:
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-          API_KEY: ${{ secrets.API_KEY }}
-          CONFIG: ${{ steps.algolia_config.outputs.config }}

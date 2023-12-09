@@ -1,0 +1,17 @@
+name: Update Algolia
+on: [push, workflow_dispatch]
+permissions: write-all
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Algolia Config
+        id: algolia_config
+        run: echo "config=$(cat crawlerConfig.json | jq -r tostring)" >> $GITHUB_OUTPUT
+
+      - name: Push indices to Algolia
+        uses: signcl/docsearch-scraper-action@master
+        env:
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          API_KEY: ${{ secrets.API_KEY }}
+          CONFIG: ${{ steps.algolia_config.outputs.config }}
