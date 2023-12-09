@@ -200,51 +200,32 @@ export default defineConfig({
       next: "下一页",
     },
     search: {
-      provider: "algolia",
+      provider: "local",
       options: {
-        appId: "J9SENYL9QI",
-        apiKey: "94bf0d70788ed044d42bb9254b41b0da",
-        indexName: "mcsl",
-        placeholder: "搜索...",
-        translations: {
-          button: {
-            buttonText: "搜索...",
-            buttonAriaLabel: "搜索文档",
-          },
-          modal: {
-            searchBox: {
-              resetButtonTitle: "清除查询条件",
-              resetButtonAriaLabel: "清除查询条件",
-              cancelButtonText: "取消",
-              cancelButtonAriaLabel: "取消",
-            },
-            startScreen: {
-              recentSearchesTitle: "搜索历史",
-              noRecentSearchesText: "没有搜索历史",
-              saveRecentSearchButtonTitle: "保存至搜索历史",
-              removeRecentSearchButtonTitle: "从搜索历史中移除",
-              favoriteSearchesTitle: "收藏",
-              removeFavoriteSearchButtonTitle: "从收藏中移除",
-            },
-            errorScreen: {
-              titleText: "无法获取结果",
-              helpText: "请检查网络连接",
-            },
-            footer: {
-              selectText: "选择",
-              navigateText: "切换",
-              closeText: "关闭",
-              searchByText: "搜索提供者",
-            },
-            noResultsScreen: {
-              noResultsText: "无法找到相关结果",
-              suggestedQueryText: "你可以尝试查询",
-              reportMissingResultsText: "你认为该查询应该有结果？",
-              reportMissingResultsLinkText: "点击反馈",
-            },
-          },
-        },
-      },
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {  
+                  selectText: '选择',
+                  selectKeyAriaLabel: '选择',
+                  navigateText: '导航',
+                  navigateUpKeyAriaLabel: '向上选择',
+                  navigateDownKeyAriaLabel: '向下选择',
+                  closeText: '关闭',
+                  closeKeyAriaLabel: '关闭'
+                }
+              }
+            }
+          }
+        }
+      }
     },
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "返回顶部",
