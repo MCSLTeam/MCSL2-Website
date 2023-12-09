@@ -6,7 +6,7 @@ import imageViewer from "vitepress-plugin-image-viewer"
 import { useRoute } from "vitepress"
 import "./style.css"
 import vitepressBackToTop from 'vitepress-plugin-back-to-top'
-// import 'vitepress-plugin-back-to-top/dist/style.css'
+import "vitepress-markdown-timeline/dist/theme/index.css";
 export default {
   ...Theme,
   enhanceApp(ctx) {
