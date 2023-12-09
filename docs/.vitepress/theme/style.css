@@ -81,3 +81,67 @@
 .DocSearch {
     --docsearch-primary-color: var(--vp-c-brand) !important;
 }
+/**
+   * Component: Back to Top
+   * -------------------------------------------------------------------------- */
+
+   .go-to-top {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 2px 12px #0000001a;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2rem;
+    right: 2.5rem
+}
+
+.dark .go-to-top {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #1b1b1f;
+    box-shadow: 0 2px 12px #424242;
+    cursor: pointer;
+    position: fixed;
+    bottom: 2rem;
+    right: 2.5rem
+}
+
+.go-to-top:hover {
+    background-color: #f9f9f9
+}
+
+.dark .go-to-top:hover {
+    background-color: #0000001a;
+}
+
+.go-to-top .icon-top {
+    width: 1em;
+    height: 1em;
+    font-size: 14px;
+    display: inline-block
+}
+
+@media (max-width: 959px) {
+    .go-to-top {
+        display: none
+    }
+}
+
+.fade-enter-active[data-v-09295527],
+.fade-leave-active[data-v-09295527] {
+    transition: opacity .3s
+}
+
+.fade-enter[data-v-09295527],
+.fade-leave-to[data-v-09295527] {
+    opacity: 0
+}
