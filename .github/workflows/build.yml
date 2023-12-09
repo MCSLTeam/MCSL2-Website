@@ -50,20 +50,3 @@ jobs:
           draft: false
           tag_name: ${{ env.TAG_TIME }}
           files: ${{ env.TAG_TIME }}.zip
-
-      - name: Sync with ZCloud
-        run: |
-            cd docs/.vitepress/dist
-            git init
-            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            # git branch -m public
-            git add .
-            git commit -m "Deploy Vitepress"
-            git remote add origin https://github.com/MCSLTeam/MCSLWebsite.git
-            git push -f origin public
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: public
