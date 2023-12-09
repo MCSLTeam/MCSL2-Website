@@ -1,5 +1,5 @@
 name: Update Algolia
-on: [push, workflow_dispatch]
+on: workflow_dispatch
 permissions: write-all
 jobs:
   Build:

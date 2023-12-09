@@ -59,7 +59,8 @@ jobs:
             git config --local user.name "github-actions[bot]"
             git add .
             git commit -m "Deploy Vitepress"
-
+            git remote add origin https://github.com/MCSLTeam/MCSLWebsite.git
+            git push origin public
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
