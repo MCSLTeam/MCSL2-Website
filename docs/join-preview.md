@@ -8,10 +8,10 @@ MCSL2的所有内测版均免费，不存在收费行为。
 
 ___
 
-<iframe src="https://www.wjx.top/handler/jqemed.ashx?activity=P4PqtSh&source=iframe&s=t" width=90% height="400" frameborder="0" scroll="no" border-radius="8px"></iframe>
+<iframe src="https://www.wjx.top/vm/P4PqtSh.aspx?width=700&source=iframe&s=t" style="overflow: hidden; border-radius: 8px;" width=100% height="552" frameborder="0" scrolling="no"></iframe>
 
 ::: details 无法加载？
-可能是你的浏览器不支持iframe接入方式，你可以打开连接尝试
+可能是你的浏览器不支持iframe接入方式，你可以选择打开链接：
 
-[https://www.wjx.top/handler/jqemed.ashx?activity=P4PqtSh](https://www.wjx.top/handler/jqemed.ashx?activity=P4PqtSh)
+<https://www.wjx.top/vm/P4PqtSh.aspx>
 :::
