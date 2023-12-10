@@ -12,6 +12,9 @@ export default defineConfig({
       md.use(timeline)
     }
   },
+  sitemap: {
+    hostname: 'https://mcsl.com.cn'
+  },
   themeConfig: {
     outlineTitle: "目录",
     lastUpdated: {
@@ -198,9 +201,6 @@ export default defineConfig({
     docFooter: {
       prev: "上一页",
       next: "下一页",
-    },
-    sitemap: {
-      hostname: 'https://mcsl.com.cn'
     },
     search: {
       provider: "local",
