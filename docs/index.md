@@ -61,6 +61,6 @@ features:
     linkText: 参与内测
     
 title: MCSL2
-titleTemplate: 简洁、全能的Minecraft开服器
+titleTemplate: 简洁、全能的Minecraft开服器 | MC服务器,Minecraft服务器,我的世界开服器,MC开服软件
 ---
 
