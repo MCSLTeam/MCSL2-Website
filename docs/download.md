@@ -12,6 +12,10 @@
 
 [https://drive.zyghit.cn/s/y1Fk](https://drive.zyghit.cn/s/y1Fk)
 
+## 通过 MCSLFile 下载 
+
+[https://file.mcsl.com.cn/MCSL2](https://file.mcsl.com.cn/MCSL2)
+
 ## 通过 蓝奏云 下载
 
 [蓝奏云1（密码MCSL）](https://lxht.lanzoum.com/b01edy9tg)
