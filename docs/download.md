@@ -28,4 +28,4 @@
 
 ## 其他  
 
-如果MCSL2 Windows版缺失aria2c.exe可在[此处](/files/aria2c.exe)下载，并放进`./MCSL2/Aria2/`中。
+如果MCSL2 Windows版缺失aria2c.exe可在[此处](https://file.mcsl.com.cn/aria2c.exe)下载，并放进`./MCSL2/Aria2/`中。
