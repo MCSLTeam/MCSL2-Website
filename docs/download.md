@@ -12,7 +12,7 @@
 
 [https://drive.zyghit.cn/s/y1Fk](https://drive.zyghit.cn/s/y1Fk)
 
-## 通过 MCSLFile 下载  
+## 通过 ZCloud File Website 下载  
 
 [https://file.mcsl.com.cn/MCSL2/Releases](https://file.mcsl.com.cn/MCSL2/Releases)
 
