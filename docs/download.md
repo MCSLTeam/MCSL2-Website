@@ -12,6 +12,10 @@
 
 [https://drive.zyghit.cn/s/y1Fk](https://drive.zyghit.cn/s/y1Fk)
 
+## 通过 MCSLFile 下载 
+
+[https://file.mcsl.com.cn/MCSL2](https://file.mcsl.com.cn/MCSL2)
+
 ## 通过 蓝奏云 下载
 
 [蓝奏云1（密码MCSL）](https://lxht.lanzoum.com/b01edy9tg)
@@ -24,4 +28,4 @@
 
 ## 其他  
 
-如果MCSL2 Windows版缺失aria2c.exe可在[此处](/files/aria2c.exe)下载，并放进`./MCSL2/Aria2/`中。
+如果MCSL2 Windows版缺失aria2c.exe可在[此处](https://file.mcsl.com.cn/aria2c.exe)下载，并放进`./MCSL2/Aria2/`中。
