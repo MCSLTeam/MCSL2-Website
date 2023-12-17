@@ -12,9 +12,9 @@
 
 [https://drive.zyghit.cn/s/y1Fk](https://drive.zyghit.cn/s/y1Fk)
 
-## 通过 MCSLFile 下载 
+## 通过 MCSLFile 下载  
 
-[https://file.mcsl.com.cn/MCSL2](https://file.mcsl.com.cn/MCSL2)
+[https://file.mcsl.com.cn/MCSL2/Releases](https://file.mcsl.com.cn/MCSL2/Releases)
 
 ## 通过 蓝奏云 下载
 
@@ -28,4 +28,4 @@
 
 ## 其他  
 
-如果MCSL2 Windows版缺失aria2c.exe可在[此处](https://file.mcsl.com.cn/aria2c.exe)下载，并放进`./MCSL2/Aria2/`中。
+如果MCSL2 Windows版缺失aria2c.exe可在[此处](hhttps://file.mcsl.com.cn/MCSL2/Resources/aria2c.exe)下载，并放进`./MCSL2/Aria2/`中。
