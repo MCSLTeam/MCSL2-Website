@@ -1,20 +1,27 @@
-[![MCSL 2 大头图](https://s3.bmp.ovh/imgs/2023/03/21/5afb21934bd980ab.png)](https://www.mcsl.com.cn)
-
-# MCSL2 官网
-
-<p align="right">
-——由MCSL Team倾心制作
+<p align="left">
+  <img align="left" height="100" src="https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png" alt="MCSL2" style="float: left; border-radius: 10px;"/>
 </p>
 
-[![](https://img.shields.io/badge/NodeJS-18.13.0-green.svg?style=for-the-badge "NodeJS")](https://nodejs.org)
-[![](https://img.shields.io/badge/VitePress-letest-blue.svg?style=for-the-badge "VitePress")](https://vitepress.dev/)
+# MCServerLauncher 2 官网
 
-基于VitePress的新MCSL官网
+基于VitePress的新MCSL官网  
+
+<div>
+    <a href="https://nodejs.org">
+    <img src="https://img.shields.io/badge/NodeJS-18.13.0-green.svg?style=for-the-badge" alt="NodeJS">
+    </a>
+    <a href="https://vitepress.dev/">
+    <img src="https://img.shields.io/badge/VitePress-latest-blue.svg?style=for-the-badge" alt="VitePress">
+    </a>
+</div>
 
 ## 用法
 
-### 1.安装nodejs
+### 1.安装nodejs和Git
+
 <https://nodejs.cn/download/>
+
+<https://git-scm.com/downloads>
 
 ### 2.克隆本仓库
 

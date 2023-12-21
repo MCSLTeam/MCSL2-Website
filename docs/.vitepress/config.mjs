@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
-
+import { qqSvg } from "./icon.mjs"
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
@@ -196,7 +196,8 @@ export default defineConfig({
       copyright: '© 2022 - 2023 MCSLTeam. | <a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a>'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/MCSLTeam' }
+      { icon: 'github', link: 'https://github.com/MCSLTeam' },
+      { icon: { svg: qqSvg }, link: '/links/mcsl2-qq-group' }
     ],
     docFooter: {
       prev: "上一页",
@@ -215,7 +216,7 @@ export default defineConfig({
               modal: {
                 noResultsText: '无法找到相关结果',
                 resetButtonTitle: '清除查询条件',
-                footer: {  
+                footer: {
                   selectText: '选择',
                   selectKeyAriaLabel: '选择',
                   navigateText: '导航',
