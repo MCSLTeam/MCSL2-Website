@@ -23,15 +23,15 @@ export default {
     fetchData() {
       var resultElement = document.getElementById('apiResult');
       var identificationCode = document.getElementById('identificationInput').value;
-      var checkPreviewUrl = `/api/checkPreviewAvailable?Identification=${identificationCode}`;
-      var givePermissionUrl = `/api/givePreviewPermission?Identification=${identificationCode}`;
+      var checkPreviewUrl = `https://api.mcsl.com.cncheckPreviewAvailable?Identification=${identificationCode}`;
+      var givePermissionUrl = `https://api.mcsl.com.cngivePreviewPermission?Identification=${identificationCode}`;
 
       if (!this.validateIdentificationCode(identificationCode)) {
         this.handleApiError('输入的识别码格式不正确，应为XXXX-XXXX-XXXX-XXXX');
         return;
       }
 
-      fetch(checkPreviewUrl, {mode:'cors', method: 'GET', redirect: 'follow'})
+      fetch(checkPreviewUrl, {mode:'cors', method: 'GET'})
         .then(response => response.json())
         .then(data => {
           if (data.msg.includes('发生错误')) {
@@ -39,7 +39,7 @@ export default {
           } else if (data.available) {
             resultElement.textContent = data.msg;
           } else {
-            fetch(givePermissionUrl, {mode:'cors', method: 'GET', redirect: 'follow'})
+            fetch(givePermissionUrl, {mode:'cors', method: 'GET'})
               .then(permissionResponse => permissionResponse.json())
               .then(permissionData => {
               if (permissionData.msg.includes('发生错误')) {resultElement.textContent = permissionData.msg;
