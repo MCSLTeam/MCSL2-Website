@@ -31,7 +31,7 @@ export default {
         return;
       }
 
-      fetch(checkPreviewUrl, { method: 'GET', redirect: 'follow'})
+      fetch(checkPreviewUrl, {mode:'cors', method: 'GET', redirect: 'follow'})
         .then(response => response.json())
         .then(data => {
           if (data.msg.includes('发生错误')) {
@@ -39,7 +39,7 @@ export default {
           } else if (data.available) {
             resultElement.textContent = data.msg;
           } else {
-            fetch(givePermissionUrl, { method: 'GET', redirect: 'follow'})
+            fetch(givePermissionUrl, {mode:'cors', method: 'GET', redirect: 'follow'})
               .then(permissionResponse => permissionResponse.json())
               .then(permissionData => {
               if (permissionData.msg.includes('发生错误')) {resultElement.textContent = permissionData.msg;
