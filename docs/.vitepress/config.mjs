@@ -1,10 +1,12 @@
 import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
-import { qqSvg } from "./icon.mjs"
+import { qqSvg } from "./icon.mjs";
+import { loadClarityTag } from './msClarity.mjs';
 
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  
   lang: "zh-CN",
   title: 'MCServerLauncher 2',
   description: '一个简洁、全能的Minecraft开服器',
@@ -16,6 +18,9 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://mcsl.com.cn'
+  },
+  enhanceApp({ app }) {
+    loadClarityTag();
   },
   vite: {
     server: {

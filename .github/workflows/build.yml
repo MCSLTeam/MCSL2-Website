@@ -9,11 +9,7 @@ jobs:
         uses: szenius/set-timezone@v1.0
         with:
           timezoneLinux: 'Asia/Shanghai'
-        
-      - name: Get Time
-        run: |
-          echo "TAG_TIME=$(date +"%y%m%d-%H%M")" >> $GITHUB_ENV
-          
+
       - name: Check out Git Repository
         uses: actions/checkout@v3
 
@@ -40,7 +36,7 @@ jobs:
         run: yarn run docs:build
       
       - name: Compress Release Assets
-        run: 7z a -r ${{ env.TAG_TIME }}.zip ./docs/.vitepress/dist/*
+        run: 7z a -r MCSLWebsite.zip ./docs/.vitepress/dist/*
       
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -48,5 +44,5 @@ jobs:
           body: "update."
           prerelease: false
           draft: false
-          tag_name: ${{ env.TAG_TIME }}
-          files: ${{ env.TAG_TIME }}.zip
+          tag_name: Latest
+          files: MCSLWebsite.zip
