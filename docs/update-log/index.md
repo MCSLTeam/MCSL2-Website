@@ -5,7 +5,7 @@ ___
 :::: timeline [v2.2.3.3](https://github.com/MCSLTeam/MCSL2/releases/tag/v2.2.3.3)
 
 :::info 提示
-这是一个测试版，需要申请内测权限。  
+这是一个测试版，仅可在[QQ群 · MCSL2·官方交流群](/links/mcsl2-qq-group)中下载，并且需要申请内测权限。  
 您可前往[该页面](/join-preview)申请内测权限。  
 :::
 
