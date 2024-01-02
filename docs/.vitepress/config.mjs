@@ -108,6 +108,10 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
+            text: "v2.2.3.3 [测试版]",
+            link: "/update-log/",
+          },
+          {
             text: "v2.2.3.1 [Hot Fix]",
             link: "/update-log/v2.2.3.1",
           },
