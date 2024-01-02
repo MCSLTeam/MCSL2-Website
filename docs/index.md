@@ -58,7 +58,7 @@ features:
     icon: 🆓
     details: 包括内测模式在内的所有功能均完全免费。
     link: /join-preview
-    linkText: 参与内测
+    linkText: 参加内测
     
 title: MCSL2
 titleTemplate: 简洁、全能的Minecraft开服器 | MC服务器,Minecraft服务器,我的世界开服器,MC开服软件

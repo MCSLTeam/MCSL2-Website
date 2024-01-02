@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
 import { qqSvg } from "./icon.mjs"
+
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
@@ -14,6 +16,17 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://mcsl.com.cn'
+  },
+  vite: {
+    server: {
+      proxy: {
+        "/api": {
+          target: "https://api.mcsl.com.cn",
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/api/, ""),
+        },
+      },
+    },
   },
   themeConfig: {
     outlineTitle: "目录",
@@ -33,6 +46,10 @@ export default defineConfig({
       {
         text: '下载',
         link: '/download',
+      },
+      {
+        text: '参加内测',
+        link: '/join-preview',
       },
       {
         text: '用户使用文档',
@@ -87,7 +104,7 @@ export default defineConfig({
         items: [
           {
             text: "v2.2.3.1 [Hot Fix]",
-            link: "/update-log/",
+            link: "/update-log/v2.2.3.1",
           },
           {
             text: "v2.2.2.4",
@@ -190,6 +207,7 @@ export default defineConfig({
           }
         ]
       },
+
     ],
     footer: {
       message: 'Site built by LxHTT | Powered by <a href="https://vitepress.dev/">VitePress</a>',

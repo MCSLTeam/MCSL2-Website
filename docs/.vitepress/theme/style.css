@@ -81,11 +81,12 @@
 .DocSearch {
     --docsearch-primary-color: var(--vp-c-brand) !important;
 }
+
 /**
    * Component: Back to Top
    * -------------------------------------------------------------------------- */
 
-   .go-to-top {
+.go-to-top {
     width: 36px;
     height: 36px;
     line-height: 36px;
@@ -144,4 +145,19 @@
 .fade-enter[data-v-09295527],
 .fade-leave-to[data-v-09295527] {
     opacity: 0
+}
+
+.myInput {
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    cursor: text;
+    height: 40px;
+    width: 100%;
+}
+
+.myInput:focus {
+    border-color: var(--vp-c-brand-1);
 }
