@@ -29,7 +29,7 @@ export default {
 
       const checkPreviewUrl = `https://api.mcsl.com.cn/checkPreviewAvailable?Identification=${identificationCode}`;
       const givePermissionUrl = `https://api.mcsl.com.cn/givePreviewPermission?Identification=${identificationCode}`;
-      const commonHeaders = {'Access-Control-Allow-Origin': '*.mcsl.com.cn'};
+      const commonHeaders = {'Access-Control-Allow-Origin': '*'};
       
       try {
         const checkPreviewResponse = await fetch(checkPreviewUrl, { mode: 'cors', headers: commonHeaders });
