@@ -23,8 +23,8 @@ export default {
     fetchData() {
       var resultElement = document.getElementById('apiResult');
       var identificationCode = document.getElementById('identificationInput').value;
-      var checkPreviewUrl = `https://api.mcsl.com.cncheckPreviewAvailable?Identification=${identificationCode}`;
-      var givePermissionUrl = `https://api.mcsl.com.cngivePreviewPermission?Identification=${identificationCode}`;
+      var checkPreviewUrl = `https://api.mcsl.com.cn/checkPreviewAvailable?Identification=${identificationCode}`;
+      var givePermissionUrl = `https://api.mcsl.com.cn/givePreviewPermission?Identification=${identificationCode}`;
 
       if (!this.validateIdentificationCode(identificationCode)) {
         this.handleApiError('输入的识别码格式不正确，应为XXXX-XXXX-XXXX-XXXX');
