@@ -22,17 +22,17 @@ export default defineConfig({
   enhanceApp({ app }) {
     loadClarityTag();
   },
-  vite: {
-    server: {
-      proxy: {
-        "/api": {
-          target: "https://api.mcsl.com.cn",
-          changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api/, ""),
-        },
-      },
-    },
-  },
+  // vite: {
+  //   server: {
+  //     proxy: {
+  //       "/api": {
+  //         target: "https://api.mcsl.com.cn",
+  //         changeOrigin: true,
+  //         rewrite: (path) => path.replace(/^\/api/, ""),
+  //       },
+  //     },
+  //   },
+  // },
   themeConfig: {
     outlineTitle: "目录",
     lastUpdated: {
