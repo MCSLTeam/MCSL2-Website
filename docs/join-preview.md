@@ -56,7 +56,6 @@ export default {
   }
 }
 </script>
-</script>
 
 
 <input type="text" class="myInput" id="identificationInput" placeholder="请输入你的MCSL2识别码，格式为XXXX-XXXX-XXXX-XXXX"><br>
