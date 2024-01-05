@@ -11,23 +11,29 @@ ___
 <script>
 export default {
   methods: {
+    // 验证识别码是否符合规范
     validateIdentificationCode(identificationCode) {
       return /^[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}$/.test(identificationCode);
     },
+    // 处理API错误
     handleApiError(message) {
       var resultElement = document.getElementById('apiResult');
       resultElement.textContent = '发生错误：' + message;
     },
+    // 获取数据
     fetchData() {
       var resultElement = document.getElementById('apiResult');
       var identificationCode = document.getElementById('identificationInput').value;
       var checkPreviewUrl = `https://api.mcsl.com.cn/checkPreviewAvailable?Identification=${identificationCode}`;
       var givePermissionUrl = `https://api.mcsl.com.cn/givePreviewPermission?Identification=${identificationCode}`;
+      
+      // 验证识别码格式是否正确
       if (!this.validateIdentificationCode(identificationCode)) {
         this.handleApiError('输入的识别码格式不正确，应为XXXX-XXXX-XXXX-XXXX');
         return;
       }
 
+      // 检查是否有预览权限
       fetch(checkPreviewUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': '*'}})
         .then(response => response.json())
         .then(data => {
@@ -36,19 +42,21 @@ export default {
           } else if (data.available) {
             resultElement.textContent = data.msg;
           } else {
+            // 给予预览权限
             fetch(givePermissionUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': '*'}})
               .then(permissionResponse => permissionResponse.json())
               .then(permissionData => {
-              if (permissionData.msg.includes('发生错误')) {resultElement.textContent = permissionData.msg;
-              } else {resultElement.textContent = permissionData.msg;}
-              }
-              )
-               .catch(error => {
-              this.handleApiError(error.message);
+                if (permissionData.msg.includes('发生错误')) {
+                  resultElement.textContent = permissionData.msg;
+                } else {
+                  resultElement.textContent = permissionData.msg;
+                }
+              })
+              .catch(error => {
+                this.handleApiError(error.message);
               });
-            }
-            }
-            )
+          }
+        })
         .catch(error => {
           this.handleApiError(error.message);
         });
@@ -56,7 +64,6 @@ export default {
   }
 }
 </script>
-
 
 <input type="text" class="myInput" id="identificationInput" placeholder="请输入你的MCSL2识别码，格式为XXXX-XXXX-XXXX-XXXX"><br>
 <button data-v-2dba8ca9="" data-v-72cc4481="" class="myButton medium brand" @click="fetchData()">提交</button>
