@@ -14,48 +14,48 @@ export default {
     validateIdentificationCode(identificationCode) {
       return /^[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}$/.test(identificationCode);
     },
-
     handleApiError(message) {
-      const resultElement = document.getElementById('apiResult');
+      var resultElement = document.getElementById('apiResult');
       resultElement.textContent = '发生错误：' + message;
     },
-
-    async fetchData() {
-      const identificationCode = document.getElementById('identificationInput').value;
+    fetchData() {
+      var resultElement = document.getElementById('apiResult');
+      var identificationCode = document.getElementById('identificationInput').value;
+      var checkPreviewUrl = `https://api.mcsl.com.cn/checkPreviewAvailable?Identification=${identificationCode}`;
+      var givePermissionUrl = `https://api.mcsl.com.cn/givePreviewPermission?Identification=${identificationCode}`;
       if (!this.validateIdentificationCode(identificationCode)) {
         this.handleApiError('输入的识别码格式不正确，应为XXXX-XXXX-XXXX-XXXX');
         return;
       }
 
-      const checkPreviewUrl = `https://api.mcsl.com.cn/checkPreviewAvailable?Identification=${identificationCode}`;
-      const givePermissionUrl = `https://api.mcsl.com.cn/givePreviewPermission?Identification=${identificationCode}`;
-      const commonHeaders = {'Access-Control-Allow-Origin': '*'};
-      
-      try {
-        const checkPreviewResponse = await fetch(checkPreviewUrl, { mode: 'cors', headers: commonHeaders });
-        const checkPreviewData = await checkPreviewResponse.json();
-
-        if (checkPreviewData.msg.includes('发生错误')) {
-          this.handleApiError(checkPreviewData.msg);
-        } else if (checkPreviewData.available) {
-          const resultElement = document.getElementById('apiResult');
-          resultElement.textContent = checkPreviewData.msg;
-        } else {
-          const permissionResponse = await fetch(givePermissionUrl, { mode: 'cors', headers: commonHeaders });
-          const permissionData = await permissionResponse.json();
-          if (permissionData.msg.includes('发生错误')) {
-            this.handleApiError(permissionData.msg);
+      fetch(checkPreviewUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': 'https://*.mcsl.com.cn'}})
+        .then(response => response.json())
+        .then(data => {
+          if (data.msg.includes('发生错误')) {
+            resultElement.textContent = data.msg;
+          } else if (data.available) {
+            resultElement.textContent = data.msg;
           } else {
-            const resultElement = document.getElementById('apiResult');
-            resultElement.textContent = permissionData.msg;
-          }
-        }
-      } catch (error) {
-        this.handleApiError(error.message);
-      }
+            fetch(givePermissionUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': 'https://*.mcsl.com.cn'}})
+              .then(permissionResponse => permissionResponse.json())
+              .then(permissionData => {
+              if (permissionData.msg.includes('发生错误')) {resultElement.textContent = permissionData.msg;
+              } else {resultElement.textContent = permissionData.msg;}
+              }
+              )
+               .catch(error => {
+              this.handleApiError(error.message);
+              });
+            }
+            }
+            )
+        .catch(error => {
+          this.handleApiError(error.message);
+        });
     }
   }
 }
+</script>
 </script>
 
 
