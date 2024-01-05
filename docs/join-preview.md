@@ -28,7 +28,7 @@ export default {
         return;
       }
 
-      fetch(checkPreviewUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': 'https://*.mcsl.com.cn'}})
+      fetch(checkPreviewUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': '*'}})
         .then(response => response.json())
         .then(data => {
           if (data.msg.includes('发生错误')) {
@@ -36,7 +36,7 @@ export default {
           } else if (data.available) {
             resultElement.textContent = data.msg;
           } else {
-            fetch(givePermissionUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': 'https://*.mcsl.com.cn'}})
+            fetch(givePermissionUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': '*'}})
               .then(permissionResponse => permissionResponse.json())
               .then(permissionData => {
               if (permissionData.msg.includes('发生错误')) {resultElement.textContent = permissionData.msg;
