@@ -26,7 +26,7 @@ export default {
       var identificationCode = document.getElementById('identificationInput').value;
       var checkPreviewUrl = `https://api.mcsl.com.cn/checkPreviewAvailable?Identification=${identificationCode}`;
       var givePermissionUrl = `https://api.mcsl.com.cn/givePreviewPermission?Identification=${identificationCode}`;
-      
+
       // 验证识别码格式是否正确
       if (!this.validateIdentificationCode(identificationCode)) {
         this.handleApiError('输入的识别码格式不正确，应为XXXX-XXXX-XXXX-XXXX');
@@ -34,7 +34,7 @@ export default {
       }
 
       // 检查是否有预览权限
-      fetch(checkPreviewUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': '*'}})
+      fetch(checkPreviewUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': 'https://*.mcsl.com.cn'}})
         .then(response => response.json())
         .then(data => {
           if (data.msg.includes('发生错误')) {
@@ -43,7 +43,7 @@ export default {
             resultElement.textContent = data.msg;
           } else {
             // 给予预览权限
-            fetch(givePermissionUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': '*'}})
+            fetch(givePermissionUrl, {mode:'cors', method: 'GET', headers: {'Access-Control-Allow-Origin': 'https://*.mcsl.com.cn'}})
               .then(permissionResponse => permissionResponse.json())
               .then(permissionData => {
                 if (permissionData.msg.includes('发生错误')) {
