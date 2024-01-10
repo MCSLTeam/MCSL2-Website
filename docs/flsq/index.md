@@ -15,7 +15,10 @@
 ![概括](https://img.fastmirror.net/s/2023/09/23/650eacee258a6.png)  
 然后，  
 ![思想止于CloudFlare，HTTP请求废物](https://img.fastmirror.net/s/2023/09/23/650ea861ad20d.jpg)  
-殊不知，HTTP请求并不是MCSL2专属啊。LLL  
+殊不知，HTTP请求并不是MCSL2专属啊。LLL
+
+![《垃圾》](https://images.mcsl.com.cn/flsq-9.png)
+太有实力了，把HTTP请求的垃圾袋往自己头上套  
 
 ## 我超，大神
 
