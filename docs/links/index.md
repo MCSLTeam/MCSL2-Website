@@ -21,4 +21,5 @@
 [水母方块 WB-Block](https://wb-block.top/)  
 [shenjack](http://shenjack.top:81/)  
 [MC导航网](https://www.mcnav.net/)  
+[YanMoBlog](https://blog.ymbit.cn/)  
 如果你也想出现在这，点击填写此表单：[MCSL2 友链申请](add-friend-links)  
