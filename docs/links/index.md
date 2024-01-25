@@ -15,6 +15,7 @@
 ## 友情链接  
 
 [维度前端 - 十织のblog](https://www.df100.ltd/)  
+[ZCloud Studio](https://zcloud.studio/)  
 [Z_Tsin](https://ztsin.cn/)  
 [FiveCDN 公益静态加速](https://cdn.5-5.site/)  
 [玖壹云互联](https://idc.jyywl.com/)  
