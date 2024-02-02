@@ -16,7 +16,7 @@
 ::: warning 提示
 这句话的意思是"网站"不让搭是因为他"属于违法"这行列内，则这句话的意思为"我们认为搭建网站也是属于违法行为，FLSQ提供的任何节点都不允许搭建任何网页"
 :::
-![知法犯法](https://images.mcsl.com.cn/flsq-999.png)
+![知法犯法](https://images.mcsl.com.cn/flsq/flsq-999.png)
 《知法犯法》<br>
 太有实力了，搬起"脚"砸自己的"石头"
 
@@ -24,7 +24,7 @@
 
 确实D不死，因为我们根本没想D你服务器/节点，而且是谁用别家Frp（知道的都知道）穿透自家API的  
 还有就是，谁家会把SRV解析记录当做高防来看的？🤣👉
-![好一个高防！](https://images.mcsl.com.cn/flsq-666.png)
+![好一个高防！](https://images.mcsl.com.cn/flsq/flsq-666.png)
 
 ## 《关于传网盘证据失效这件事》  
 

@@ -17,7 +17,7 @@
 ![思想止于CloudFlare，HTTP请求废物](https://img.fastmirror.net/s/2023/09/23/650ea861ad20d.jpg)  
 殊不知，HTTP请求并不是MCSL2专属啊。LLL
 
-![《垃圾》](https://images.mcsl.com.cn/flsq-9.png)
+![《垃圾》](https://images.mcsl.com.cn/flsq/flsq-9.png)
 太有实力了，把HTTP请求的垃圾袋往自己头上套  
 
 ## 我超，大神
@@ -25,7 +25,7 @@
 ![成功击落gov.cn，太有实力了](https://img.fastmirror.net/s/2023/11/04/65462106e1c04.png)  
 难度⭐×114514
 
-![我知乎都能打死](https://images.mcsl.com.cn/flsq-6.png)  
+![我知乎都能打死](https://images.mcsl.com.cn/flsq/flsq-6.png)  
 难度⭐×1919810
 
 ## 可惜喽，给你断网了  
