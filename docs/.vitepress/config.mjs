@@ -220,7 +220,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Site built by LxHTT | Powered by <a href="https://vitepress.dev/">VitePress</a>',
-      copyright: '© 2022 - 2023 MCSLTeam. | <a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a>'
+      copyright: '© 2022 - 2024 MCSLTeam. | <a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a>'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MCSLTeam' },
