@@ -45,7 +45,7 @@ export default defineConfig({
       { text: '更新日志', link: '/update-log/' },
       { text: '文档', link: '/doc/' },
       { text: '相关链接', link: '/links/' },
-      { text: '永久乐子', link: '/flsq/' }
+      { text: '永久乐子', link: '/joker' }
     ],
     sidebar: [
       {
@@ -215,6 +215,10 @@ export default defineConfig({
             link: "/flsq/fuckFLSQ_2nd",
           }
         ]
+      },
+      {
+        text: "乐子YML3启动器",
+        link: "/yml3/",
       },
 
     ],
