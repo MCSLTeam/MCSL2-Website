@@ -32,19 +32,27 @@ YML3是这样的：
 
 抄袭是这样的：
 
-![yml3 settings](https://images.mcsl.com.cn/dmca/qt_design.png)
+![yml3 settings](https://images.mcsl.com.cn/dmca/qt-design-new.png)
 
 有实力的，UI直接右键复制粘贴，鼠标都得说个6🤣
 
 ## 证据4 - 插件系统
 
-![Plugin](https://images.mcsl.com.cn/dmca/plugin-json.png)
+![Plugin](https://images.mcsl.com.cn/dmca/plugin-json-new.png)
 
 大言不惭，《我自研的》
 
 ![Chat](https://images.mcsl.com.cn/yml/yml-2.png)
 
 自研的CtrlCV技术，你这不得申请个吉尼斯记录啊🤣
+
+## 证据5 - 资源文件照搬  
+
+![list](https://images.mcsl.com.cn/yml/image_compare.png)
+
+注意抓重点！
+
+![key image](https://images.mcsl.com.cn/yml/res-copy.png)
 
 ## DMCA提交记录
 
