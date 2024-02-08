@@ -1,18 +1,14 @@
-# v2.2.3.3 测试版更新日志  
+# v2.2.4.0 更新日志  
 
 ___
 
-:::: timeline [v2.2.3.3](https://github.com/MCSLTeam/MCSL2/releases/tag/v2.2.3.3)
-
-:::info 提示
-这是一个测试版，仅可在[QQ群 · MCSL2·官方交流群](/links/mcsl2-qq-group)中下载，并且需要申请内测权限。  
-您可前往[该页面](/join-preview)申请内测权限。  
-:::
+:::: timeline [v2.2.4.0](https://github.com/MCSLTeam/MCSL2/releases/tag/v2.2.4.0)
 
 ## 新功能  
 
 > 多服务器同时开启  
-> 备份服务器功能  
+> 统一配置文件编辑器  
+> 备份服务器数据功能  
 > 备份服务器存档功能  
 > 生成启动脚本功能  
 > MCSLAPI下载多样化  
@@ -24,9 +20,12 @@ ___
 ## 修复  
 
 > Linux版无法启动问题  
+> `server.properties`文件的读取问题  
+> 在线玩家列表问题
 
 ## 优化  
 
 > 大幅性能优化  
-> 系统报告功能  
 > 下载进度条  
+> Spigot服务器图标  
+> MCSL系统报告功能  
