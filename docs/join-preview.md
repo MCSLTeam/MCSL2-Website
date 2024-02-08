@@ -65,8 +65,8 @@ export default {
 }
 </script>
 
-<input type="text" class="myInput" id="identificationInput" placeholder="请输入你的MCSL2识别码，格式为XXXX-XXXX-XXXX-XXXX"><br>
-<button data-v-2dba8ca9="" data-v-72cc4481="" class="myButton medium brand" @click="fetchData()">提交</button>
+<input type="text" class="myInput" id="identificationInput" placeholder="输入MCSL2识别码"><br>
+<button class="myButton medium brand" @click="fetchData()">提交</button>
 <p id="apiResult"></p>
 
 <!-- 
