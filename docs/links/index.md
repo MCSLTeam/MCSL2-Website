@@ -22,6 +22,8 @@
 
 [Frp 内网穿透联盟](https://内网穿透.中国/)  
 
+[MSL - 我的世界开服器](https://www.waheal.top/)  
+
 [水母方块 WB-Block](https://wb-block.top/)  
 
 [shenjack](http://shenjack.top:81/)  
