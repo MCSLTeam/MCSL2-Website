@@ -22,7 +22,7 @@
 
 [蓝奏云2（密码MCSL）](https://lxht.lanzoux.com/b01edy9tg)
 
-[蓝奏云3（密码MCSL）](https://lxht.lanzoug.com/b01edy9tg)
+[蓝奏云3（密码MCSL）](https://lxht.lanzouk.com/b01edy9tg)
 
 [蓝奏云4（密码MCSL）](https://lxht.lanzoub.com/b01edy9tg)
 

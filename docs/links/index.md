@@ -20,14 +20,16 @@
 
 [玖壹云互联](https://idc.jyywl.com/)  
 
+[Frp 内网穿透联盟](https://内网穿透.中国/)  
+
 [水母方块 WB-Block](https://wb-block.top/)  
 
 [shenjack](http://shenjack.top:81/)  
 
 [YanMoBlog](https://blog.ymbit.cn/)  
 
-[维度前端 - 十织のblog](https://www.df100.ltd/)  
+[十织のBlog](https://www.df100.ltd/)  
 
-[Z_Tsin](https://ztsin.cn/)  
+[Z_Tsin's Home](https://ztsin.cn/)  
 
 如果你也想让你的网站出现在这，点击填写此表单：[MCSL2 友链申请](add-friend-links)  

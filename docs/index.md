@@ -39,7 +39,7 @@ features:
   - title: 自动查找Java
     icon: ✅
     details: 开服界首创查找Java算法，在1-2s内即可完成搜索。
-    link: https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/Controllers/javaDetector.py
+    link: https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/ProgramControllers/javaDetector.py
     linkText: 了解我们的算法
   - title: 多服务器管理
     icon: 🎞️
