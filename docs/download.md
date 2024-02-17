@@ -16,15 +16,15 @@
 
 [https://file.mcsl.com.cn/MCSL2/Releases](https://file.mcsl.com.cn/MCSL2/Releases)
 
+## 通过 Orangepi Cloud 下载  
+
+[https://mcsl-dow.haiweb.ink/s/jRfM](https://mcsl-dow.haiweb.ink/s/jRfM)
+
 ## 通过 蓝奏云 下载
 
 [蓝奏云1（密码MCSL）](https://lxht.lanzoum.com/b01edy9tg)
 
 [蓝奏云2（密码MCSL）](https://lxht.lanzoux.com/b01edy9tg)
-
-[蓝奏云3（密码MCSL）](https://lxht.lanzouk.com/b01edy9tg)
-
-[蓝奏云4（密码MCSL）](https://lxht.lanzoub.com/b01edy9tg)
 
 ## 其他  
 
