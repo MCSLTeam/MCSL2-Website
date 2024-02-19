@@ -249,7 +249,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Site built by MCSLTeam | Powered by <a href="https://vitepress.dev/">VitePress</a>',
-      copyright: '© 2022 - 2024 MCSLTeam. | <a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a><br>本站由<a href="https://idc.jyywl.com"提供加速支持'
+      copyright: '© 2022 - 2024 MCSLTeam. | <a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a><br>本站由 <a href="https://idc.jyywl.com/">玖壹云网络</a> 提供加速支持'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MCSLTeam' },
