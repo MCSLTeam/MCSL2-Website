@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
-import { qqSvg } from "./icon.mjs";
+import { qqSvg, emailSvg } from "./icon.mjs";
 import { loadClarityTag } from './msClarity.mjs';
 
 
@@ -42,8 +42,9 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '下载', link: '/download' },
-      { text: '更新日志', link: '/update-log/' },
       { text: '文档', link: '/doc/' },
+      { text: '更新日志', link: '/update-log/' },
+      { text: '鸣谢', link: '/acknowledgements' },
       { text: '相关链接', link: '/links/' },
       { text: '永久乐子', link: '/joker' }
     ],
@@ -55,6 +56,14 @@ export default defineConfig({
       {
         text: '参加内测',
         link: '/join-preview',
+      },
+      {
+        text: '鸣谢',
+        link: '/acknowledgements',
+      },
+      {
+        text: '相关链接',
+        link: '/links/',
       },
       {
         text: '用户使用文档',
@@ -239,12 +248,13 @@ export default defineConfig({
 
     ],
     footer: {
-      message: 'Site built by LxHTT | Powered by <a href="https://vitepress.dev/">VitePress</a>',
-      copyright: '© 2022 - 2024 MCSLTeam. | <a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a>'
+      message: 'Site built by MCSLTeam | Powered by <a href="https://vitepress.dev/">VitePress</a>',
+      copyright: '© 2022 - 2024 MCSLTeam. | <a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a><br>本站由<a href="https://idc.jyywl.com"提供加速支持'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MCSLTeam' },
-      { icon: { svg: qqSvg }, link: '/links/mcsl2-qq-group' }
+      { icon: { svg: qqSvg }, link: '/links/mcsl2-qq-group' },
+      { icon: { svg: emailSvg }, link: 'mailto:services@mcsl.com.cn' }
     ],
     docFooter: {
       prev: "上一页",

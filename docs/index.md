@@ -18,7 +18,10 @@ hero:
       link: /doc/
     - theme: alt
       text: GitHub
-      link: https://github.com/MCSLTeam/MCSL2
+      link: /links/mcsl2-repo
+    - theme: alt
+      text: 特别鸣谢
+      link: /acknowledgements
 
 features:
   - title: 面向各阶用户
