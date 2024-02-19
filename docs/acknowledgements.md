@@ -142,12 +142,6 @@ MCSL 能有今日的成就，离不开各位的支持。
             avatar: 'https://cravatar.cn/avatar/8DB351BF50CF41289B1C5C5D726C55D3',
             name: '神秘人士',
             title: '格式规范',
-            links: [
-                {
-                    icon: 'github',
-                    link: 'https://github.com/'
-                },
-            ]
         },
         {
             avatar: 'https://cravatar.cn/avatar/090C3F04DF0E29A189BA7DE5563611E3',
