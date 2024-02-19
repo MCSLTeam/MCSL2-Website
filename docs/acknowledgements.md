@@ -24,7 +24,7 @@ MCSL 能有今日的成就，离不开各位的支持。
     loadSponsors();
     const members = [
         {
-            avatar: 'https://www.github.com/LxHTT.png',
+            avatar: 'https://cravatar.cn/avatar/63A2B66B15D1992C2A911B460658E0A7',
             name: '落雪无痕LxHTT',
             title: '总开发 / 总设计 / 创始人',
             links: [
@@ -35,7 +35,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/AresConnor.png',
+            avatar: 'https://cravatar.cn/avatar/5958AC2B84CC3DB6E7A1BF7FA6556AF2',
             name: '爱喝矿泉水',
             title: '副开发 / 创始人',
             links: [
@@ -46,7 +46,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/shenjackyuanjie.png',
+            avatar: 'https://cravatar.cn/avatar/0BC1C375B0DC507489D8E9AF15F66786',
             name: 'shenjack',
             title: '副开发',
             links: [
@@ -57,7 +57,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/lgc2333.png',
+            avatar: 'https://cravatar.cn/avatar/84A1A591D21E1C91581BF55E32E87D7C',
             name: '饼干',
             title: '副开发',
             links: [
@@ -68,7 +68,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/ltzXiaoYanMo.png',
+            avatar: 'https://cravatar.cn/avatar/5CAE2AB14D106AD43790EF7DFF047157',
             name: '烟墨',
             title: '副开发 / 运维',
             links: [
@@ -79,7 +79,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/daizihan233.png',
+            avatar: 'https://cravatar.cn/avatar/79AA975410BFF94949965673A60071DB',
             name: '括弧',
             title: '运维',
             links: [
@@ -90,7 +90,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/ztsinsun.png',
+            avatar: 'https://cravatar.cn/avatar/581D7A85FB19AE52A34A93447F707B17',
             name: 'Z_Tsin',
             title: '副开发 / 运维',
             links: [
@@ -101,7 +101,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/hengshizhi.png',
+            avatar: 'https://cravatar.cn/avatar/44EBC717DBCE6599F0264767209553F0',
             name: '星姮十织',
             title: '创新建设者',
             links: [
@@ -117,7 +117,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             title: 'MCSL1 荣誉开发 / 吉祥物 / 大蛇'
         },
         {
-            avatar: 'https://www.github.com/SnowballXueQiu.png',
+            avatar: 'https://cravatar.cn/avatar/7EAB20B734A3B5C39048DB99570525CD',
             name: '雪球',
             title: '创新建设者',
             links: [
@@ -128,7 +128,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/wyx55520.png',
+            avatar: 'https://cravatar.cn/avatar/8E3DD2950850D9ED9295062F082BB13C',
             name: '锅盖',
             title: 'MCSL2 荣誉开发 / MCSL 灵感建设者 / 创始人',
             links: [
@@ -139,9 +139,9 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/XieXiLin2.png',
+            avatar: 'https://cravatar.cn/avatar/AEF3ED943CC115022C4E3A3E0C058862',
             name: 'XieXiLin',
-            title: '维护人员',
+            title: '规范化人员',
             links: [
                 {
                     icon: 'github',
@@ -150,7 +150,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://www.github.com/StarryCamile.png',
+            avatar: 'https://cravatar.cn/avatar/090C3F04DF0E29A189BA7DE5563611E3',
             name: 'Yurnu',
             title: '创新建设者',
             links: [
