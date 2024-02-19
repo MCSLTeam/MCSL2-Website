@@ -7,11 +7,11 @@
 
 ## 下载MCSL2  
 
-1. 点击[这里](/download)下载最新版本的MCSL2。
-2. 下载压缩包解压后，双击 `MCSL2.exe`(Windows平台) 或 `MCSL2.bin`(Linux/Mac平台)启动程序。
+1. 点击 [这里](/download) 下载最新版本的MCSL2。
+2. 下载压缩包解压后，双击 `MCSL2.exe` (Windows平台) 或 `MCSL2.bin` (Linux/Mac平台) 启动程序。
 
-::: details Linux/Mac版无法启动？
-请打开终端，输入：
+::: details Linux/Mac 版无法启动？
+请打开终端，输入:
 
 ```bash
 chmod +x MCSL2.bin
@@ -26,10 +26,10 @@ chmod +x MCSL2.bin
 ![主界面](https://img.fastmirror.net/s/2023/12/08/6573336121689.png)  
 左侧导航栏从上往下依次为：  
 
-- 主页  
-- 新建  
-- 管理  
-- 下载  
+- 主页
+- 新建
+- 管理
+- 下载
 - 终端
-- 插件  
+- 插件
 - 设置

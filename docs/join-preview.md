@@ -1,13 +1,14 @@
 # 内测资格申请  
 
 ::: warning 注意
-MCSL2的所有内测版均免费，不存在收费行为；  
-均接入加密联网验证，无资格无法使用。
+MCSL2 的所有内测版均免费，**不存在收费行为**;  
+均接入加密联网验证，**无资格无法使用**。
 :::
-MCSL2会不定时在[QQ群 · MCSL2·官方交流群](/links/mcsl2-qq-group)中放出供测试的版本。如果你想要得到这些版本的内测资格，请填写该表单。  
-请放心，内测结束后，您不会被禁止使用该内测版，并且也可在`设置`中升级到正式版。
+MCSL2会不定时在 [QQ 群 · MCSL2 · 官方交流群](/links/mcsl2-qq-group) 中放出供测试的版本。如果你想要得到这些版本的内测资格，请填写该表单。  
+请放心，内测结束后，您不会被禁止使用该内测版，并且也可在 `设置` 中升级到正式版。
 ___
 
+<!-- markdownlint-disable MD033 -->
 <script>
 export default {
   methods: {
@@ -18,7 +19,7 @@ export default {
     // 处理API错误
     handleApiError(message) {
       var resultElement = document.getElementById('apiResult');
-      resultElement.textContent = '发生错误：' + message;
+      resultElement.textContent = '发生错误: ' + message;
     },
     // 获取数据
     fetchData() {
@@ -29,7 +30,7 @@ export default {
 
       // 验证识别码格式是否正确
       if (!this.validateIdentificationCode(identificationCode)) {
-        this.handleApiError('输入的识别码格式不正确，应为XXXX-XXXX-XXXX-XXXX');
+        this.handleApiError('输入的识别码格式不正确，格式应为 XXXX-XXXX-XXXX-XXXX');
         return;
       }
 
@@ -71,7 +72,7 @@ export default {
 
 <!-- 
 ::: details 无法加载？
-可能是你的浏览器不支持iframe接入方式，你可以选择打开链接：
+可能是你的浏览器不支持 iframe 接入方式，你可以选择打开链接:
 
 <https://www.wjx.top/vm/P4PqtSh.aspx>
 ::: -->

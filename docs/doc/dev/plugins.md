@@ -1,19 +1,19 @@
 # 插件开发
 
-> 本文档介绍了如何开发适用于MCSL2的插件。通过插件，您可以扩展MCSL2的功能，添加自定义特性和行为。
+> 本文档介绍了如何开发适用于 MCSL2 的插件。通过插件，您可以扩展 MCSL2 的功能，添加自定义特性和行为。
 
 ## 插件基本信息
 
-每个MCSL2插件需要在其根目录下包含一个名为 `config.json` 的配置文件和一个 Python 脚本文件，以下是一个典型的插件文件结构：
+每个 MCSL2 插件需要在其根目录下包含一个名为 `config.json` 的配置文件和一个 Python 脚本文件，以下是一个典型的插件文件结构：
 
-```
+```bash
 PluginExample/
 ├── config.json
 └── PluginExample.py
 ```
 
 ::: tip 提示
-插件的名称必须与文件夹名、config.json的`plugin_name`的值 和 Python 脚本中的声明变量名称相同。
+插件的名称必须与文件夹名、config.json 的 `plugin_name` 的值 和 Python 脚本中的声明变量名称相同。
 :::
 
 ### config.json
@@ -41,7 +41,7 @@ PluginExample/
 ### PluginExample.py
 
 ```python
-# 实现一个Plugin类
+# 实现一个 Plugin 类
 from Adapters.Plugin import Plugin
 
 PluginExample = Plugin()
@@ -70,7 +70,7 @@ PluginExample.register_disableFunc(disable)
 
 ## 插件生命周期
 
-MCSL2插件的生命周期涵盖了加载、启用和禁用阶段，您可以在每个阶段执行相应的操作。
+MCSL2 插件的生命周期涵盖了加载、启用和禁用阶段，您可以在每个阶段执行相应的操作。
 
 ### 插件加载阶段
 
@@ -91,11 +91,11 @@ MCSL2插件的生命周期涵盖了加载、启用和禁用阶段，您可以在
 - 插件可以通过调用 `PluginExample.register_xxxFunc()` 方法注册不同阶段的函数。
 - 插件可以在三个生命周期阶段执行自定义代码，实现不同的功能。
 - 插件应遵循合适的软件工程实践，确保代码的可读性和可维护性。
-- 可以直接导入MCSL2Lib的代码，如`from MCSL2Lib.windowInterface import Window`。
+- 可以直接导入MCSL2Lib的代码，如 `from MCSL2Lib.windowInterface import Window`。
 
 ## 开源许可证
 
-插件的代码需要遵循与 MCSL2 定义的许可协议相符的许可条款`GNU General Public License, Version 3.0`。
+插件的代码需要遵循与 MCSL2 定义的许可协议相符的许可条款 `GNU General Public License, Version 3.0`。
 
 ## 示例插件
 

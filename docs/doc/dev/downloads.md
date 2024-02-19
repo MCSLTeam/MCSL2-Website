@@ -1,24 +1,24 @@
 # 下载模块  
 
-当前MCSL2已接入了 4 个镜像站点，分别为：  
+当前 MCSL2 已接入了 4 个镜像站点，分别为:  
 
-- [无极镜像 (FastMirror)](https://fastmirror.net/)  
-- [MCSLAPI](#使用-mcslapi)  
-- [极星 · 镜像站 (Polars)](https://mirror.polars.cc/)  
-- [阿基拉云 镜像站（Akira）](https://mirror.akiracloud.net/)  
+- [无极镜像 (FastMirror)](https://fastmirror.net/)
+- [MCSLAPI](#使用-mcslapi)
+- [极星 · 镜像站 (Polars)](https://mirror.polars.cc/)
+- [阿基拉云 镜像站（Akira）](https://mirror.akiracloud.net/)
 
 ## 使用 FastMirror  
 
 ::: info 提示
-无极镜像官方API文档可在此查看：[GitHub · FastMirror-MC/FastMirrorServer: README.md](https://github.com/FastMirror-MC/FastMirrorServer/blob/master/README.md)
+无极镜像官方 API 文档可在此查看: [GitHub · FastMirror-MC/FastMirrorServer: README.md](https://github.com/FastMirror-MC/FastMirrorServer/blob/master/README.md)
 :::
 
-### 在MCSL2客户端中调用FastMirror API  
+### 在 MCSL2 客户端中调用 FastMirror API  
 
 > [MCSL2Lib/Pages/downloadPage.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/Pages/downloadPage.py)  
 > [MCSL2Lib/DownloadAPIs/FastMirrorAPI.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/DownloadAPIs/FastMirrorAPI.py)  
 > [MCSL2Lib/Widgets/FastMirrorWidgets.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/Widgets/FastMirrorWidgets.py)  
-> 提示：下方有关Qt控件相关部分已省略。
+> 提示：下方有关 Qt 控件相关部分已省略。
 
 ```python
 # MCSL2Lib/Pages/downloadPage.py
@@ -191,10 +191,10 @@ class DownloadPage(QWidget):
 本API的请求地址如下：  
 > <https://api.mcsl.com.cn/DownloadAPI>  
 
-本API支持 ```GET``` 方式调用，例如：
+本API支持 `GET` 方式调用，例如：
 
 ```http
-GET API地址/JavaDownloadInfo.json
+{API_ROOT}/JavaDownloadInfo.json
 ```
 
 还有如下可请求：
@@ -239,7 +239,7 @@ GET API地址/JavaDownloadInfo.json
 > [MCSL2Lib/Pages/downloadPage.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/Pages/downloadPage.py)  
 > [MCSL2Lib/DownloadAPIs/MCSLAPI.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/DownloadAPIs/FastMirrorAPI.py)  
 > [MCSL2Lib/Widgets/FastMirrorWidgets.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/Widgets/FastMirrorWidgets.py)  
-> 提示：下方有关Qt控件相关部分已省略。
+> 提示：下方有关 Qt 控件相关部分已省略。
 
 ```python
 # MCSL2Lib/Pages/downloadPage.py

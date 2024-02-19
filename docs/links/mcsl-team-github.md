@@ -1,6 +1,8 @@
 ---
-title: 正在跳转到GitHub
----  
+title: 正在跳转到 GitHub
+---
+
+<!-- markdownlint-disable MD033 -->
 <head><meta http-equiv="refresh" content="2; url=https://github.com/MCSLTeam"></head>  
 
 ### 2秒后即跳转至GitHub，请稍后~  
