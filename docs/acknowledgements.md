@@ -139,13 +139,13 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://cravatar.cn/avatar/AEF3ED943CC115022C4E3A3E0C058862',
-            name: 'XieXiLin',
-            title: '规范化人员',
+            avatar: 'https://cravatar.cn/avatar/8DB351BF50CF41289B1C5C5D726C55D3',
+            name: '神秘人士',
+            title: '格式规范',
             links: [
                 {
                     icon: 'github',
-                    link: 'https://github.com/XieXiLin2'
+                    link: 'https://github.com/'
                 },
             ]
         },
