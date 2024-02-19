@@ -9,7 +9,7 @@ MCSL 能有今日的成就，离不开各位的支持。
 <p id="sponsors"></p>
 
 <script setup>
-    import { marked } from "./marked.esm.js";
+    import { marked } from "./public/marked.esm.js";
     import { VPTeamMembers } from 'vitepress/theme';
     async function loadSponsors() {
         try {
