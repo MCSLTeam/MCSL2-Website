@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "MCSL2"
-  text: "简洁、全能的Minecraft开服器"
-  tagline: 由MCSL2开发组精心呈现
+  text: "简洁、全能的 Minecraft 开服器"
+  tagline: 由 MCSL2 开发组精心呈现
   image:
     src: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
     alt: MCSL2
@@ -31,7 +31,7 @@ features:
     linkText: 查看用法
   - title: 界面简洁美观
     icon: 💻
-    details: 以Fluent Design设计语言为基础，提供简洁、美观的界面。
+    details: 以 Fluent Design 设计语言为基础，提供简洁、美观的界面。
     link: https://qfluentwidgets.com/zh/
     linkText: 了解控件库
   - title: 一键下载资源
@@ -56,7 +56,7 @@ features:
     icon: 🚪
     details: 除内测模式模块以外全部开源，透明公开，放心使用。
     link: https://github.com/MCSLTeam/MCSL2
-    linkText: 打开GitHub仓库
+    linkText: 打开 GitHub 仓库
   - title: 程序完全免费
     icon: 🆓
     details: 包括内测模式在内的所有功能均完全免费。

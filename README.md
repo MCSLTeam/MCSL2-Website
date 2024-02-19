@@ -4,7 +4,7 @@
 
 # MCServerLauncher 2 官网
 
-基于VitePress的新MCSL官网  
+基于 VitePress 的新 MCSL 官网  
 
 <div>
     <a href="https://nodejs.org">
@@ -17,7 +17,7 @@
 
 ## 用法
 
-### 1.安装nodejs和Git
+### 1.安装 Node.js 和 Git
 
 <https://nodejs.cn/download/>
 
@@ -51,4 +51,4 @@ yarn run docs:dev
 yarn run docs:build
 ```
 
-构建后的文件在`docs/.vitepress/dist`文件夹中。
+构建后的文件在 `docs/.vitepress/dist` 文件夹中。
