@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@andatoshiki/vitepress-plugin-nprogress": "^0.0.1",
+    "marked": "^12.0.0",
     "sitemap": "^7.1.1",
     "vitepress-markdown-timeline": "^1.2.1",
     "vitepress-plugin-back-to-top": "^1.0.1",
