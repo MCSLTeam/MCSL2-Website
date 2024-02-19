@@ -16,7 +16,6 @@ MCSL 能有今日的成就，离不开各位的支持。
             const response = await fetch('https://github.moeyy.xyz/https://raw.githubusercontent.com/MCSLTeam/MCSL2/master/Sponsors.md');
             const markdownText = await response.text();
             document.getElementById('sponsors').innerHTML = marked(markdownText);
-            console.log(marked(markdownText));
         } catch (error) {
             console.error('Error fetching and rendering Markdown:', error);
         }
