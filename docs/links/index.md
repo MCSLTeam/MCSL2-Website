@@ -8,7 +8,7 @@
 
 [爱发电 · MCSL开发组](mcsl-team-afdian)  
 
-[QQ 群 · `MCSL2 · 官方交流群`](mcsl2-qq-group)  
+[QQ 群 · MCSL2 · 官方交流群](mcsl2-qq-group)  
 
 [哔哩哔哩 · 落雪无痕LxHTT](bilibili-lxhtt)  
 
@@ -22,7 +22,7 @@
 
 [Frp 内网穿透联盟](https://内网穿透.中国/)  
 
-[MSL - 我的世界开服器](https://www.waheal.top/)  
+[MSL - 我的世界开服器](https://waheal.top/)  
 
 [水母方块 WB-Block](https://wb-block.top/)  
 
