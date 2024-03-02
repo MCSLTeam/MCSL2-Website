@@ -68,6 +68,17 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
+            avatar: 'https://cravatar.cn/avatar/949981B3E9A90F7B0F8B0E8B0590E695',
+            name: 'kitUIN',
+            title: '创新建设者 / 副开发',
+            links: [
+                {
+                    icon: 'github',
+                    link: 'https://github.com/kitUIN'
+                },
+            ]
+        },
+        {
             avatar: 'https://cravatar.cn/avatar/5CAE2AB14D106AD43790EF7DFF047157',
             name: '烟墨',
             title: '副开发 / 运维',
@@ -141,12 +152,12 @@ MCSL 能有今日的成就，离不开各位的支持。
         {
             avatar: 'https://cravatar.cn/avatar/8DB351BF50CF41289B1C5C5D726C55D3',
             name: '神秘人士',
-            title: '格式规范',
+            title: '格式规范专员',
         },
         {
             avatar: 'https://cravatar.cn/avatar/090C3F04DF0E29A189BA7DE5563611E3',
             name: 'Yurnu',
-            title: '创新建设者',
+            title: '创新建设者 / 开发者',
             links: [
                 {
                     icon: 'github',
