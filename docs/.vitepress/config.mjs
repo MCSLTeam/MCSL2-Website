@@ -16,6 +16,7 @@ export default defineConfig({
       md.use(timeline)
     }
   },
+  cleanUrls: true,
   sitemap: {
     hostname: 'https://mcsl.com.cn'
   },
