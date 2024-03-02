@@ -20,7 +20,7 @@ hero:
       text: GitHub
       link: /links/mcsl2-repo
     - theme: alt
-      text: 特别鸣谢
+      text: 鸣谢
       link: /acknowledgements
 
 features:
@@ -66,48 +66,3 @@ features:
 title: MCSL2
 titleTemplate: 简洁、全能的 Minecraft 开服器 | MC 服务器, Minecraft 服务器, 我的世界开服器, MC 开服软件
 ---
-
-<!-- markdownlint-disable MD033 -->
-<!-- 灯笼1 -->
-<div class="deng-box">
-    <div class="deng">
-        <div class="xian"></div>
-        <div class="deng-a">
-            <div class="deng-b"><div class="deng-t">新</div></div>
-        </div>
-        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
-    </div>
-</div>
-
-<!-- 灯笼2 -->
-<div class="deng-box1">
-    <div class="deng">
-        <div class="xian"></div>
-        <div class="deng-a">
-            <div class="deng-b"><div class="deng-t">春</div></div>
-        </div>
-        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
-    </div>
-</div>
-
-<!-- 灯笼3 -->
-<div class="deng-box2">
-    <div class="deng">
-        <div class="xian"></div>
-        <div class="deng-a">
-            <div class="deng-b"><div class="deng-t">快</div></div>
-        </div>
-        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
-    </div>
-</div>
-
-<!-- 灯笼4 -->
-<div class="deng-box3">
-    <div class="deng">
-        <div class="xian"></div>
-        <div class="deng-a">
-            <div class="deng-b"><div class="deng-t">乐</div></div>
-        </div>
-        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
-    </div>
-</div>
