@@ -249,14 +249,14 @@ export default defineConfig({
 
     ],
     footer: {
-      message: 'Site built by MCSLTeam | Powered by <a href="https://vitepress.dev/">VitePress</a> and ZCloud',
-      copyright: '© 2022 - 2024 MCSLTeam. | <a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a><br>本站由 <a href="https://idc.jyywl.com/">玖壹云网络</a> 提供加速支持'
+      message: '“MCServerLauncher 2软件”已进行中华人民共和国计算机软件著作权登记，一切侵权行为将依法追究。<br>计算机软件著作权登记号：<a href="https://www.ccopyright.com.cn/">2024SR0343868</a><br>网站ICP备案号：<a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a><br>本站由 <a href="https://idc.jyywl.com/">玖壹云互联</a> 提供CDN加速与防御支持。',
+      copyright: '© 2022 - 2024 MCSL开发组 保留所有权利。'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MCSLTeam' },
-      { icon: { svg: qqSvg }, link: '/links/mcsl2-qq-group.html' },
+      { icon: { svg: qqSvg }, link: '/links/mcsl2-qq-group' },
       { icon: { svg: emailSvg }, link: 'mailto:services@mcsl.com.cn' },
-      { icon: { svg: afdianSvg }, link: '/links/mcsl-team-afdian.html' }
+      { icon: { svg: afdianSvg }, link: '/links/mcsl-team-afdian' }
     ],
     docFooter: {
       prev: "上一页",
