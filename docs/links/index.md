@@ -18,7 +18,7 @@
 
 [波比网络](https://www.blbi.cn/)  
 
-[玖壹云互联](https://idc.jyywl.com/)  
+[玖壹云互联 - 简约而不简单](https://idc.jyywl.com/)  
 
 [Frp 内网穿透联盟](https://内网穿透.中国/)  
 
@@ -26,7 +26,7 @@
 
 [水母方块 WB-Block](https://wb-block.top/)  
 
-[shenjack](http://shenjack.top:81/)  
+[shenjack 的网站](http://shenjack.top:81/)  
 
 [YanMoBlog](https://blog.ymbit.cn/)  
 
@@ -35,5 +35,7 @@
 [Z_Tsin's Home](https://ztsin.cn/)  
 
 [ZhouHu's Blog](https://gitpor.cn/)  
+
+[洛笙云 - 性价比极高的云服务提供商](https://cloud.lstudio.top/)  
 
 如果你也想让你的网站出现在这，点击填写此表单: [MCSL2 友链申请](add-friend-links)  
