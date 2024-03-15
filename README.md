@@ -1,6 +1,15 @@
-<p align="left">
-  <img align="left" height="150" src="https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png" alt="MCSL2" style="float: left; border-radius: 10px;"/>
-</p>
+<style>
+  .image-container {
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+</style>
+
+<div class="image-container">
+  <img src="https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png" alt="MCSL2" height="150">
+</div>
+
 
 # MCServerLauncher 2 官网
 
