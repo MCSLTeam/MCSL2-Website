@@ -249,8 +249,8 @@ export default defineConfig({
 
     ],
     footer: {
-      message: '“MCServerLauncher 2软件”已进行中华人民共和国计算机软件著作权登记，一切侵权行为将依法追究。<br>计算机软件著作权登记号：<a href="https://www.ccopyright.com.cn/">2024SR0343868</a><br>网站ICP备案号：<a href="https://beian.miit.gov.cn/">鲁ICP备2023001164号-2</a><br>本站由 <a href="https://idc.jyywl.com/">玖壹云互联</a> 提供CDN加速与防御支持。',
-      copyright: '© 2022 - 2024 MCSL开发组 保留所有权利。'
+      message: '「MCServerLauncher 2 软件」已进行中华人民共和国计算机软件著作权登记，一切侵权行为将依法追究。<br>计算机软件著作权登记号: <a href="https://www.ccopyright.com.cn/">2024SR0343868</a><br>网站ICP备案号: <a href="https://beian.miit.gov.cn/">鲁 ICP 备 2023001164 号 - 2</a><br>本站由 <a href="https://idc.jyywl.com/">玖壹云互联</a> 提供 CDN 加速与防御支持。',
+      copyright: '&copy 2022 - 2024 MCSL开发组 保留所有权利。'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/MCSLTeam' },
