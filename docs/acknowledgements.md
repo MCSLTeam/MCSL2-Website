@@ -150,9 +150,9 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://cravatar.cn/avatar/8DB351BF50CF41289B1C5C5D726C55D3',
-            name: '神秘人士',
-            title: '格式规范专员',
+            avatar: 'https://cravatar.cn/avatar/AEF3ED943CC115022C4E3A3E0C058862',
+            name: 'XieXiLin',
+            title: '专治各种格式不规范',
         },
         {
             avatar: 'https://cravatar.cn/avatar/090C3F04DF0E29A189BA7DE5563611E3',
