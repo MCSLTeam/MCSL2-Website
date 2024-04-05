@@ -1,25 +1,16 @@
-# v2.2.5.0 更新日志  
+# v2.2.5.1 更新日志  
 
 ___
 
-:::: timeline [v2.2.5.0](https://github.com/MCSLTeam/MCSL2/releases/tag/v2.2.5.0)
+:::: timeline [v2.2.5.1](https://github.com/MCSLTeam/MCSL2/releases/tag/v2.2.5.1)
+::: warning 警告
+这是一个紧急更新，建议立刻安装！
+:::
 ### 新功能
 
-> 不开启服务器即可编辑配置文件  
-> 1.20+的Forge安装  
-> 配置文件编辑器每分钟自动保存  
-> 支持NukkitX  
+> ~~软著标识~~
 
 ### 修复
 
-> 服务器退出后仍显示玩家  
-> Forge服务器安装失败  
-> 配置文件编辑器关闭报错  
-> 配置文件编辑器文件内容不同步  
-> MCSLAPI  
-
-### 优化
-> 语义化  
-> 文件IO  
-> BungeeCord备份检查  
-> 配置文件编辑器  
+> 无法更新的问题  
+> 无法修改服务器配置的问题
