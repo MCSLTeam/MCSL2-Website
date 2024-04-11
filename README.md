@@ -35,7 +35,7 @@ git clone https://github.com/MCSLTeam/MCSLWebsite.git
 先导航到本项目根目录。
 
 ```bash
-yarn install
+bun install
 ```
 
 ### 4.运行
@@ -43,13 +43,13 @@ yarn install
 #### 本地运行
 
 ```bash
-yarn run docs:dev
+bun run docs:dev
 ```
 
 #### 部署
 
 ```bash
-yarn run docs:build
+bun run docs:build
 ```
 
 构建后的文件在 `docs/.vitepress/dist` 文件夹中。
