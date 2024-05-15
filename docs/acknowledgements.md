@@ -79,7 +79,7 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://cravatar.cn/avatar/5CAE2AB14D106AD43790EF7DFF047157',
+            avatar: 'https://cravatar.cn/avatar/D03F4B96830060CAB36B44646CF426E3',
             name: '烟墨',
             title: '副开发 / 运维',
             links: [
