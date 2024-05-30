@@ -1,16 +1,18 @@
-# v2.2.5.1 更新日志  
+# v2.2.6.0 更新日志  
 
 ___
 
-:::: timeline [v2.2.5.1](https://github.com/MCSLTeam/MCSL2/releases/tag/v2.2.5.1)
-::: warning 警告
-这是一个紧急更新，建议立刻安装！
-:::
+:::: timeline [v2.2.6.0](https://github.com/MCSLTeam/MCSL2/releases/tag/v2.2.6.0)
+
 ### 新功能
 
-> ~~软著标识~~
+> 全新 Forge 安装器
 
 ### 修复
 
-> 无法更新的问题  
-> 无法修改服务器配置的问题
+> 无法安装 Forge 服务器问题  
+> Forge服务器安装失败后弹窗文本的格式转换问题
+
+### 优化
+
+> Java 自动查找
