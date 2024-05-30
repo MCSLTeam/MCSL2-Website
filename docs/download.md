@@ -16,10 +16,6 @@
 
 [https://jn.sv.ztsin.cn:5244/MCSL2/Releases](https://jn.sv.ztsin.cn:5244/MCSL2/Releases)
 
-## 通过 Orangepi Cloud 下载  
-
-[https://mcsldl.linser.top/s/jRfM](https://mcsldl.linser.top/s/jRfM)
-
 ## 通过 蓝奏云 下载
 
 <script>
@@ -60,4 +56,4 @@
 
 ## 其他  
 
-如果 MCSL2 Windows 版缺失 aria2c.exe 可在 [此处](hhttps://file.mcsl.com.cn/MCSL2/Resources/aria2c.exe) 下载，并请将文件放进 `./MCSL2/Aria2/` 中。
+如果 MCSL2 Windows 版缺失 aria2c.exe 可在 [此处](https://drive.zyghit.cn/s/GxS7) 下载，并请将文件放进 `./MCSL2/Aria2/` 中。
