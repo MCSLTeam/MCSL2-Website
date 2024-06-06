@@ -150,11 +150,6 @@ MCSL 能有今日的成就，离不开各位的支持。
             ]
         },
         {
-            avatar: 'https://cravatar.cn/avatar/AEF3ED943CC115022C4E3A3E0C058862',
-            name: 'XieXiLin',
-            title: '专治各种格式不规范',
-        },
-        {
             avatar: 'https://cravatar.cn/avatar/090C3F04DF0E29A189BA7DE5563611E3',
             name: 'Yurnu',
             title: '创新建设者 / 开发者',
@@ -169,6 +164,7 @@ MCSL 能有今日的成就，离不开各位的支持。
 </script>
 
 ## 开发组人员
-也要感谢我们的开发组成员，他们同样为了 MCSL开发组 及其下的项目开发添砖加瓦。
+
+也要感谢我们的开发组成员，他们同样为了 MCSL 开发组 及其下的项目开发添砖加瓦。
 
 <VPTeamMembers size="small" :members="members"/>
