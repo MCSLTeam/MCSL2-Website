@@ -7,7 +7,7 @@ hero:
   text: "简洁、全能的 Minecraft 开服器"
   tagline: 由 MCSL2 开发组精心呈现
   image:
-    src: https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png
+    src: https://images.mcsl.com.cn/new/MCSL2.png
     alt: MCSL2
   actions:
     - theme: brand
@@ -66,3 +66,10 @@ features:
 title: MCSL2
 titleTemplate: 简洁、全能的 Minecraft 开服器 | MC 服务器, Minecraft 服务器, 我的世界开服器, MC 开服软件
 ---
+
+<div style="background-color: black; color: white; padding: 10px 10px 20px 20px; z-index: 10; width: 100%; position: fixed; bottom: 0; left: 0; opacity: 0.8;">
+  <h3>⚠ MCSL2 已停止主要生命周期支持 ⚠</h3>
+  <p>非常感谢您对本项目的支持！未来的启动器开发工作将全面转向更强大的 <a href="https://future.mcsl.com.cn/">MCServerLauncher Future</a>，点击可查看详情。</p>
+  <p>我们深知停止继续开发此项目是一个危险举动，但唯有停止才能有更多的精力开发下一代开服器，感谢您的理解。</p>
+  <p>MCSL2 的相关在线服务在 MCSL Future 发布正式版前不会关闭，各位用户还请放心。</p>
+</div>
