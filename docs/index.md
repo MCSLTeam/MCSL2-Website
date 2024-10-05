@@ -7,7 +7,7 @@ hero:
   text: "简洁、全能的 Minecraft 开服器"
   tagline: 由 MCSL2 开发组精心呈现
   image:
-    src: https://images.mcsl.com.cn/new/MCSL2.png
+    src: https://images.mcsl.com.cn/new/MCSL2.webp
     alt: MCSL2
   actions:
     - theme: brand

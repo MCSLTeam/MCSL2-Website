@@ -10,7 +10,7 @@ export default defineConfig({
   lang: "zh-CN",
   title: 'MCServerLauncher 2',
   description: '一个简洁、全能的Minecraft开服器',
-  head: [['link', { rel: 'icon', href: 'https://images.mcsl.com.cn/new/MCSL2.png' }]],
+  head: [['link', { rel: 'icon', href: 'https://images.mcsl.com.cn/new/MCSL2.webp' }]],
   markdown: {
     config: (md) => {
       md.use(timeline)
@@ -39,7 +39,7 @@ export default defineConfig({
     lastUpdated: {
       text: "最后更新",
     },
-    logo: "https://images.mcsl.com.cn/new/MCSL2.png",
+    logo: "https://images.mcsl.com.cn/new/MCSL2.webp",
     nav: [
       { text: '主页', link: '/' },
       { text: '下载', link: '/download' },
