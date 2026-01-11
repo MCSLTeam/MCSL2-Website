@@ -1,102 +1,100 @@
 # 插件开发
 
-> 本文档介绍了如何开发适用于 MCSL2 的插件。通过插件，您可以扩展 MCSL2 的功能，添加自定义特性和行为。
+面向 MCSL2 启动器的 Python 插件开发指南。插件可扩展 UI、流程与自动化能力。
 
-## 插件基本信息
-
-每个 MCSL2 插件需要在其根目录下包含一个名为 `config.json` 的配置文件和一个 Python 脚本文件，以下是一个典型的插件文件结构：
+## 基本结构
 
 ```bash
-PluginExample/
-├── config.json
-└── PluginExample.py
+Plugins/
+  └── PluginExample/
+      ├── config.json
+      └── PluginExample.py
 ```
-
-::: tip 提示
-插件的名称必须与文件夹名、config.json 的 `plugin_name` 的值 和 Python 脚本中的声明变量名称相同。
-:::
 
 ### config.json
 
 ```json
 {
-    "plugin_name": "PluginExample",
-    "version": "0.0.0",
-    "description": "插件示例",
-    "icon": ":/built-InIcons/MCSL2.png",
-    "author": "MCSL Team",
-    "author_email": "lxhtt@vip.qq.com",
-    "on_new_thread": false
+  "plugin_name": "PluginExample",
+  "version": "1.0.0",
+  "description": "插件示例",
+  "icon": ":/built-InIcons/MCSL2.png",
+  "author": "MCSL Team",
+  "author_email": "services@mcsl.com.cn",
+  "on_new_thread": false
 }
 ```
 
-- `plugin_name`: 插件的名称，必须与文件夹名和 Python 脚本中的声明变量名称相同。
-- `version`: 插件的版本号。
-- `description`: 插件的简要描述。
-- `icon`: 插件的图标。
-- `author`: 插件的作者。
-- `author_email`: 作者的联系邮箱。
-- `on_new_thread`: 布尔值，表示插件是否在新线程中运行。
+- `plugin_name`：必须与文件夹名及 Python 变量名一致
+- `on_new_thread`：是否在新线程运行（谨慎开启，涉及线程安全）
 
-### PluginExample.py
+### 入口脚本示例
 
 ```python
-# 实现一个 Plugin 类
 from Adapters.Plugin import Plugin
 
 PluginExample = Plugin()
 
 def load():
-    """在插件加载时执行的代码"""
-    ...
+    # 插件被加载（未启用）
+    pass
 
 def enable():
-    """在插件启用时执行的代码"""
-    ...
+    # 插件启用
+    pass
 
 def disable():
-    """在插件禁用时执行的代码"""
-    ...
+    # 插件禁用（做清理）
+    pass
 
-# 注册加载代码
 PluginExample.register_loadFunc(load)
-
-# 注册启用代码
 PluginExample.register_enableFunc(enable)
-
-# 注册禁用代码
 PluginExample.register_disableFunc(disable)
 ```
 
-## 插件生命周期
+## 生命周期
 
-MCSL2 插件的生命周期涵盖了加载、启用和禁用阶段，您可以在每个阶段执行相应的操作。
+- `load()`：读取配置、准备资源，不应阻塞
+- `enable()`：绑定信号、挂钩 UI、启动任务
+- `disable()`：释放资源、断开信号、停止线程
 
-### 插件加载阶段
+## 常用 API
 
-在插件加载时，会执行 `load()` 函数中的代码。您可以在此阶段进行初始化操作、加载配置等。
+- 日志：`from MCSL2Lib.ProgramControllers.logController import _MCSL2Logger`
+- 文件：`from MCSL2Lib.utils import readFile, writeFile`
+- 窗口：`from MCSL2Lib.windowInterface import Window`
+- 线程池：`from Adapters.PluginThreadPool import PluginThreadPool`
 
-### 插件启用阶段
+## 线程与 UI 安全
 
-在插件启用时，会执行 `enable()` 函数中的代码。您可以在此阶段执行与插件功能相关的代码。
+- 默认在主线程；`on_new_thread=true` 会在新线程运行入口
+- 更新 UI 必须切回主线程（使用 Qt 信号/槽或 `QMetaObject.invokeMethod`）
+- 长耗时任务放线程池，勿阻塞 UI
 
-### 插件禁用阶段
+## 最佳实践
 
-在插件禁用时，会执行 `disable()` 函数中的代码。您可以在此阶段执行清理操作、保存数据等。
+- 保持命名一致：文件夹 = `plugin_name` = Python 变量名
+- 捕获异常并记录日志，避免让插件崩掉主程序
+- 访问文件时使用相对路径（相对于插件目录）
+- 禁止在 `load()` 阶段做耗时下载/解压，改在 `enable()` 或后台线程
+- 如果修改全局状态，记得在 `disable()` 里恢复
 
-## 插件开发注意事项
+## 打包与分发
 
-- 插件文件夹名称、`plugin_name` 和 Python 脚本中的声明变量名称必须保持一致。
-- 插件必须包含一个有效的 `config.json` 配置文件。
-- 插件可以通过调用 `PluginExample.register_xxxFunc()` 方法注册不同阶段的函数。
-- 插件可以在三个生命周期阶段执行自定义代码，实现不同的功能。
-- 插件应遵循合适的软件工程实践，确保代码的可读性和可维护性。
-- 可以直接导入MCSL2Lib的代码，如 `from MCSL2Lib.windowInterface import Window`。
+- 保持最小集：`config.json` + Python 源码 + 必需资源
+- 建议附带 `README.md` 说明安装与配置
+- 遵循语义化版本：`主.次.补丁`
 
-## 开源许可证
+## 安全与权限
 
-插件的代码需要遵循与 MCSL2 定义的许可协议相符的许可条款 `GNU General Public License, Version 3.0`。
+插件拥有与 MCSL2 同等的文件与系统访问权限。仅安装可信插件，并在文档中声明外部依赖与网络访问行为。
 
-## 示例插件
+## 示例与参考
 
-在此文档中提供的代码是一个简单的示例插件，仅用于说明插件开发的基本流程。您可以根据自己的需求，开发更加复杂和功能丰富的插件来扩展MCSL2的功能。
+- 示例：`MCSL2/PluginExample/`
+- 事件/线程：`Adapters/PluginThreadPool.py`
+- UI 交互：`MCSL2Lib/Widgets/` 与 `MCSL2Lib/Pages/`
+
+## 开源协议
+
+插件需遵循 MCSL2 的 `GNU GPL v3` 协议：保留版权声明，修改后仍需开源。

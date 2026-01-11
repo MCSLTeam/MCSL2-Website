@@ -1,16 +1,16 @@
-# 下载模块  
+# 下载模块
 
-当前 MCSL2 已接入了 4 个镜像站点，分别为:  
+MCSL2 内置下载器（无需 aria2），支持多源切换与错误提示。当前接入：
 
 - [无极镜像 (FastMirror)](https://fastmirror.net/)
 - [MCSLAPI](#使用-mcslapi)
 - [极星 · 镜像站 (Polars)](https://mirror.polars.cc/)
-- [阿基拉云 镜像站（Akira）](https://mirror.akiracloud.net/)
+- 雨云镜像 (RainYun)
 
 ## 使用 FastMirror  
 
 ::: info 提示
-无极镜像官方 API 文档可在此查看: [GitHub · FastMirror-MC/FastMirrorServer: README.md](https://github.com/FastMirror-MC/FastMirrorServer/blob/master/README.md)
+无极镜像官方 API 文档: [FastMirrorServer README](https://github.com/FastMirror-MC/FastMirrorServer/blob/master/README.md)
 :::
 
 ### 在 MCSL2 客户端中调用 FastMirror API  
@@ -237,7 +237,7 @@ class DownloadPage(QWidget):
 ### 在MCSL2客户端中调用 MCSLAPI  
 
 > [MCSL2Lib/Pages/downloadPage.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/Pages/downloadPage.py)  
-> [MCSL2Lib/DownloadAPIs/MCSLAPI.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/DownloadAPIs/FastMirrorAPI.py)  
+> [MCSL2Lib/DownloadAPIs/MCSLAPI.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/DownloadAPIs/MCSLAPI.py)  
 > [MCSL2Lib/Widgets/FastMirrorWidgets.py](https://github.com/MCSLTeam/MCSL2/blob/master/MCSL2Lib/Widgets/FastMirrorWidgets.py)  
 > 提示：下方有关 Qt 控件相关部分已省略。
 
@@ -347,3 +347,31 @@ class DownloadPage(QWidget):
             uri,
             (fileName + "." + fileFormat, "coreName", "MCVer", "buildVer"),
         )
+
+## 雨云镜像 (RainYun)
+
+RainYun 为新增国内源，调用方式与 FastMirror 类似：
+
+- 在 `DownloadAPIs/RainYunAPI.py` 拉取核心/版本/构建列表并做字段映射
+- 通过线程工厂 `_singleton` 避免重复请求
+- 将解析结果写入 `DownloadVariables` 并填充 UI
+
+## 下载器与错误处理
+
+- 内置下载器支持断点续传与失败重试（见 `ProgramControllers/downloadController.py`）
+- 调用 `checkDownloadFileExists(...)` 避免重复任务并写入下载队列
+- 对网络异常、超时、HTTP 状态码做兜底提示，必要时提示切换镜像
+
+## 扩展新源的步骤
+
+1. 在 `DownloadAPIs/` 新增 API 模块，封装请求、解析和字段统一
+2. 提供线程工厂（参考 `FetchFastMirrorAPIThreadFactory`），使用 `_singleton=True`
+3. 在 `downloadPage.py` 注册入口和 UI 初始化逻辑
+4. 在 `DownloadVariables` 中保存解析后的数据结构
+5. 通过 `checkDownloadFileExists` 统一校验、入队并复用下载器
+
+## 线程与 UI 建议
+
+- 网络请求放后台线程，UI 更新用信号/槽
+- 避免在主线程处理大 JSON；解析后再发信号
+- 下载进度通过 `downloadInfo` 信号回传进度面板
