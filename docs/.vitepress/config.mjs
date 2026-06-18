@@ -118,8 +118,12 @@ export default defineConfig({
         collapsed: true,
         items: [
           {
-            text: "v2.3.0.0",
+            text: "v2.3.1.0",
             link: "/update-log/",
+          },
+          {
+            text: "v2.3.0.0",
+            link: "/update-log/v2.3.0.0",
           },
           {
             text: "v2.2.6.3",
